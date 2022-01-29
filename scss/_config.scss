@@ -1,0 +1,145 @@
+// USER VARIABLES SECTION
+
+$accent: #a74ade; // Accent Color
+$accentLight: #d696fb;
+$accentDarken: #8323bc;
+$accentError: #ff0036;
+$accentSucces: #53c427;
+$accentGray: #bababa;
+$accentTable: #f7f9fa;
+$accentBlue: #7073ff;
+$accentLightGrey: #b6b6b6;
+$fontsize: 14px; // Body Font Size
+$textcolor: #5b5b5b; // Text Color
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+$OpenSans: OpenSans, sans-serif; // Roboto Font Family
+
+$background: #fff;
+$border-radius: 0;
+$color: $textcolor;
+$color-hover: $accentLight;
+$selected-background: $accent;
+$not-in-month: $accentGray; 
+$not-in-month-hover: $accentGray;
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 20px;
+$gutter: $grid-gutter-width;
+
+$cubic: cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+// IMPORT SECTION
+
+@import '../libs/bootstrap/scss/bootstrap-reboot.scss'; // Bootstrap Reboot collection
+@import '../libs/bootstrap/scss/mixins/_breakpoints.scss'; // Bootstrap Breakpoints mixin
+@import '../libs/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+@import '../fonts/icon/style.scss'; // fonts icon
+@import '../libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar'; // custom scrollbar
+@import '../libs/pickmeup/css/pickmeup.scss'; // custom calendar
+@import '../libs/magnific-popup/dist/magnific-popup'; // modal
+@import '../libs/select2/dist/css/select2.min'; // custom calendar
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff2');
+	}
+}
+
+@include font('OpenSans', normal, 400, '../fonts/OpenSans/OpenSans-Regular.woff2');
+@include font('OpenSans', italic, 400, '../fonts/OpenSans/OpenSans-Italic.woff2');
+@include font('OpenSans', normal, 600, '../fonts/OpenSans/OpenSans-SemiBold.woff2');
+@include font('OpenSans', italic, 600, '../fonts/OpenSans/OpenSans-SemiBoldItalic.woff2');
+@include font('OpenSans', normal, 700, '../fonts/OpenSans/OpenSans-Bold.woff2');
+@include font('OpenSans', italic, 700, '../fonts/OpenSans/OpenSans-BoldItalic.woff2');
+
+// GENERAL DOCUMENT STYLES
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+input, textarea {
+	outline: none;
+	&:focus:required:invalid { border-color: red }
+	&:required:valid { border-color: green }
+}
+
+html,
+body{
+	height: 100%;
+}
+body {
+	font-family: $OpenSans;
+	font-size: $fontsize;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.30;
+	overflow-x: hidden;
+	color: $textcolor;
+}
+.wrapper{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+.mCS-rounded-dark.mCSB_scrollTools {
+	.mCSB_dragger{
+		
+		.mCSB_dragger_bar{
+			height: 14px;
+			background-color: $accent !important;
+		  
+		}
+	}
+	.mCSB_draggerRail{
+		background-color: #c0c0c0;
+		width: 1px;
+	}
+}
+
+.icon{
+	&-car{
+		font-size: 15px;
+	}
+	&-chat{
+		font-size: 21px;
+	}
+	&-hat{
+		font-size: 18px;
+	}
+	&-return{
+		font-size: 20px;
+	}
+	&-chair{
+		font-size: 23px;
+	}
+	&-write{
+		font-size: 26px;
+	}
+	&-stop{
+		display: inline-block;
+		width: 13px;
+		height: 2px;
+		background: $accentGray;
+	}
+	&-message{
+		&-on{
+			font-size: 28px;
+		}
+		&-off{
+			font-size: 22px;
+		}
+	}
+}

@@ -1,0 +1,2532 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Template</title>
+	<meta name="description" content="HTML template">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.ico">
+	<meta property="og:image" content="images/dest/favicon.ico">
+	
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<!-- CUSTOM HTML -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header d-flex">
+			<div class="header-sidebar sidebar-toggle">
+				<div class="header-sidebar__logo logo">
+					<div class="logo-box">
+						<span class="logo-box__img">
+							<img src="images/dest/logo.png" alt="">
+							<span class="counter">22</span>
+						</span>
+						<span class="logo-box__text">
+							<span class="logo-box__title">Традиции <b>профессионалов</b></span>
+							<span class="logo-box__slogan">мы сделали настоящую <br> адвокатуру доступной</span>
+						</span>
+					</div>
+					<span class="icon icon-angle-right"></span>
+				</div>
+			</div>
+			<div class="header-main">
+
+				<div class="header-user dropdown">
+					<buttton data-toggle="dropdown" class="dropdown-toggle">
+						<span class="header-user__title">
+							<span class="header-user__title-img">
+								<i class="icon icon-user"></i>
+							</span>
+							<span class="header-user__title-name">
+								Касіянчук П. І.
+							</span>
+						</span>
+						<i class="icon icon-angle-down"></i>
+					</buttton>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Уведомления<span class="counter">22</span></a></li>
+							<li><a href="#">Личный кабинет</a></li>
+							<li><a href="#">Выход</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header-lang dropdown">
+					<button data-toggle="dropdown" class="dropdown-toggle">Рус <i class="icon icon-angle-down"></i></button>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Рус</a></li>
+							<li><a href="#">Укр</a></li>
+							<li><a href="#">Eng</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="header-menu">
+					<ul class="menu">
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Головна</a></li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="icon icon-angle-right d-lg-none"></i> Послуги</a>
+							<div class="dropdown-menu">
+								<ul>
+									<li>
+										<a href="#"><i class="icon icon-services-1"></i>Голосова консультація</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-2"></i>Письмове питаня</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-3"></i>Створити документ</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-4"></i>Перевірити документ</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Гарантії</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> ПРАВИЛА САЙТу</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Допомога</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> КОНТАКТи</a></li>
+						<li class="d-lg-none">
+							<a href="#">
+								<i class="icon icon-settings"></i>
+								<span>Налаштування</span>
+							</a>
+						</li>
+						<li class="d-lg-none">
+							<a href="#">
+								<i class="icon icon-help"></i>
+								<span>Допомога</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				
+
+				<div class="header-menu-right d-none d-lg-block">
+					<ul class="menu">
+						<li>
+							<a href="#">
+								<i class="icon icon-settings"></i>
+								<span>Налаштування</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-help"></i>
+								<span>Допомога</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<button class="btn btn-menu d-lg-none" id="mobileMenu">
+					<span></span>
+				</button>
+
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- content -->
+		<div class="content d-flex">
+			<!-- sidebar -->
+			<aside class="sidebar">
+				<div class="sidebar-inside custom-scroll">
+					<ul>
+						<li class="active ">
+							<a href="#">
+								<i class="icon icon-bell"></i>
+								<span class="sidebar-item">Повідомлення</span>
+								<span class="counter">22</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-chart"></i>
+								<span class="sidebar-item">Розпорядок</span>
+							</a>
+						</li>
+						<li class="sidebar-dropdown">
+							<a href="#">
+								<i class="icon icon-bag"></i>
+								<span class="sidebar-item">Послуги</span>
+							</a>
+							<ul class="submenu">
+								<li class="active">
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Заявки в роботі
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Відхилені заявки
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-cash"></i>
+								<span class="sidebar-item">Фінанси</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-folder"></i>
+								<span class="sidebar-item">Архів Справ</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-user"></i>
+								<span class="sidebar-item">Особисті дані</span>
+							</a>
+						</li>
+					</ul>
+					<div class="connect-block client">
+						<div class="connect-block__img">
+							<img src="images/dest/advokat-1.jpg" alt="">
+						</div>
+						<div class="connect-block__info">
+							<h2>Васильків С. Г.</h2>
+							<p>клієнт</p>
+						</div>
+						<button class="btn btn-connect">
+							<i class="icon icon-phone"></i>
+						</button>
+					</div>
+					<div class="connect-block moderator">
+						<div class="connect-block__img">
+							<img src="images/dest/advokat-2.jpg" alt="">
+						</div>
+						<div class="connect-block__info">
+							<h2>Федишин Р. В.</h2>
+							<p>модератор</p>
+						</div>
+						<a href="#" class="btn btn-connect">
+							<i class="icon icon-phone"></i>
+						</a>
+					</div>
+				</div>
+			</aside>
+			<!-- sidebar end -->
+			<!-- main -->
+			<main class="main advokatServices">
+				<div class="container-fluid">
+					<!-- breadcrumbs -->
+					<ul class="breadcrumbs">
+						<li><a href="#">Адвокат</a></li>
+						<li><a href="#">Послуги</a></li>
+						<li><span>Заявка в роботi</span></li>
+					</ul>
+					<!-- breadcrumbs end -->
+					<!-- header-page -->
+					<div class="header-page">
+						<div class="header-page__title">
+							<h1>Заявки в роботі</h1>
+							<p>Послуги</p>
+						</div>
+						<div class="header-page__filter">
+							<div class="header-page__filter-date">
+								<div class="d-md-flex align-items-center">
+									Період з:
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+										</button>
+									</div>
+								</div>
+								<div class="d-md-flex align-items-center">
+									по:
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="header-page__filter-action">
+								<div class="radio-group">
+									<input id="services-1" type="radio" name="services">
+									<label for="services-1" class="btn btn-action"><i class="icon icon-services-1"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-2" type="radio" name="services">
+									<label for="services-2" class="btn btn-action"><i class="icon icon-services-2"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-3" type="radio" name="services">
+									<label for="services-3" class="btn btn-action"><i class="icon icon-services-3"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-4" type="radio" name="services">
+									<label for="services-4" class="btn btn-action"><i class="icon icon-services-4"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-0" type="radio" name="services" checked>
+									<label for="services-0" class="btn btn-action">Всі</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- header-page end -->
+					<!-- table -->
+					<div class="table table-service">
+						<!-- table-header -->
+						<div class="table-header">
+							<div class="table-header__col table-header__action">
+								<span>
+									Згорн. розвер.
+								</span>
+							</div>
+							<div class="table-header__col table-header__number">
+								<span>
+									№ <span class="hidden">послуги</span>
+								</span>
+							</div>
+							<div class="table-header__col table-header__service">
+								<span>
+									Послуга
+								</span>
+							</div>
+							<div class="table-header__col table-header__title d-none d-lg-block">
+								<span>
+									Фабула
+								</span>
+							</div>
+							<div class="table-header__col table-header__date">
+								<span>
+									Ви прийняли <br> до виконаня
+								</span>
+							</div>
+							<div class="table-header__col table-header__date mobile-date">
+								<span>
+									Вам потрібно виконати на
+								</span>
+							</div>
+							<div class="table-header__col table-header__date">
+								<span>
+									Ви виконали послугу
+								</span>
+							</div>
+							<div class="table-header__col table-header__status d-none d-lg-block">
+								<span>
+									Стадія виконання
+								</span>
+							</div>
+							<div class="table-header__col table-header__checkout-mod d-none d-lg-block">
+								<span>
+									Перевірка модератора
+								</span>
+							</div>
+						</div>
+						<!-- table-header end -->
+						<div class="table-content">
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block new">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00010
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<span class="status status-success">
+											 Виконано
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod"  data-title="Перевірка модератора">
+										<span class="status status-rework">
+											На допрацювання
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+								<!-- table-body -->
+								<div class="table-body serviceBlock toggle-item">
+									<div class="connect-block client d-md-none">
+										<div class="connect-block__img">
+											<img src="images/dest/advokat-1.jpg" alt="">
+										</div>
+										<div class="connect-block__info">
+											<h2>Васильків С. Г.</h2>
+											<p>клієнт</p>
+										</div>
+										<button class="btn btn-connect">
+											<i class="icon icon-phone"></i>
+										</button>
+									</div>
+									<div class="connect-block moderator d-md-none">
+										<div class="connect-block__img">
+											<img src="images/dest/advokat-2.jpg" alt="">
+										</div>
+										<div class="connect-block__info">
+											<h2>Федишин Р. В.</h2>
+											<p>модератор</p>
+										</div>
+										<a href="#" class="btn btn-connect">
+											<i class="icon icon-phone"></i>
+										</a>
+									</div>
+									<!-- serviceBlock-info-case -->
+									<div class="serviceBlock-info-case">
+										<!-- serviceBlock-theme -->
+										<div class="serviceBlock-theme">
+
+											<div class="serviceBlock-theme__title">
+												<div class="serviceBlock-heading">
+													Тема послуги:
+												</div>
+												<p>Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												<div class="serviceBlock-heading">
+													Завдання на виконання послуги від модератора
+												</div>
+												<div class="serviceBlock-info__body-inside ml-unset">
+													<div class="mobileNotScroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem, velit ullam asperiores voluptate error ex. Minus nostrum earum itaque laudantium culpa sapiente sint sunt praesentium totam obcaecati eos ab fugiat tenetur at perspiciatis quasi numquam sed, amet quisquam atque, veritatis possimus consequuntur sit. Iure molestiae fugiat distinctio assumenda voluptates repudiandae officiis! Quas, obcaecati ut! Vero, dignissimos. Perferendis illo repudiandae eligendi mollitia asperiores odio eum dolores sed soluta distinctio nemo quos, odit nam nihil placeat sequi quaerat cupiditate sint perspiciatis itaque, dolorum ut! Velit, exercitationem maiores. Ratione necessitatibus pariatur eius laboriosam mollitia non repudiandae quos dolore nemo. Non quam ipsam soluta blanditiis aut. Ducimus obcaecati placeat, dolores maiores itaque unde doloribus beatae provident a perferendis eum voluptates distinctio sed? In vero ab obcaecati nesciunt voluptatem et iusto non molestias quod explicabo, nostrum dignissimos temporibus ea expedita quisquam dolores quaerat dolor nobis porro magnam. Neque laborum, repellendus quisquam illum deleniti nostrum quia commodi quibusdam aliquid iusto recusandae sit natus. Voluptatibus fugit, dolorem perspiciatis dicta impedit eius! Ab repellat hic quos autem, asperiores veritatis quae impedit sed mollitia, aut esse dicta exercitationem nesciunt itaque eius ipsum molestiae distinctio quis accusamus dignissimos, quo error consequatur sint delectus. Numquam, expedita dolores quaerat laboriosam iusto assumenda a facere error molestias animi nemo ipsam. Molestias consequatur dignissimos rerum placeat maiores, accusamus omnis ipsum dicta incidunt architecto? Labore harum provident, est laboriosam explicabo exercitationem molestiae ipsum! Dolore quas et officiis odit ducimus officia voluptas facilis ullam, voluptatum omnis molestias quae expedita, neque cum velit ut! Quas dolorum incidunt nobis, molestiae iusto at aperiam hic tempore iure sapiente quo doloribus officiis sed quae, deleniti repellat ex mollitia delectus. Consectetur expedita vitae cum, laudantium eum quas repudiandae ullam dolores laboriosam ex cumque provident corrupti sint tenetur possimus enim aperiam voluptatibus doloremque qui inventore adipisci recusandae! Voluptatem ea id repellat sint eius deserunt quasi? Ab doloremque sit provident architecto. Autem reprehenderit nostrum at atque sapiente ducimus debitis corporis eum ea numquam esse labore eveniet excepturi optio exercitationem, pariatur quae reiciendis quas quos ad soluta dignissimos quia. Aut, accusantium! Reprehenderit illo temporibus optio! Sunt ad libero dolores tempora hic nihil ratione vel reprehenderit provident nisi voluptates omnis modi velit sapiente voluptatibus voluptatum autem, aspernatur debitis doloribus facere officiis, delectus veritatis ut. Tempore recusandae provident cumque numquam, rerum possimus distinctio odio, quos, esse voluptatum explicabo alias ullam! Sed laudantium accusantium necessitatibus ipsa atque ab non. Officiis labore error facilis, fuga, voluptatibus assumenda magnam temporibus sint, itaque qui atque nihil ipsa minima aperiam culpa vero delectus. Pariatur tenetur cumque sapiente repellendus voluptas. Eaque necessitatibus dignissimos, perspiciatis praesentium reiciendis, minus error id quae nobis natus odit beatae, non esse exercitationem cupiditate sit! Placeat sequi ea dolorem corrupti voluptates dolores aliquid beatae quaerat temporibus voluptatibus ipsam minima dolor animi dolore mollitia, pariatur tenetur quis dolorum debitis voluptate non illo quos facilis qui. Perferendis, laboriosam quaerat expedita tempora facilis voluptate labore! Doloribus aliquam facere omnis dolores, tenetur culpa? Ratione, excepturi explicabo autem ipsam nobis facilis eaque dicta reprehenderit quod cupiditate dignissimos est quia voluptatibus nam dolorum non. Natus asperiores maxime tenetur ipsa id veniam soluta corporis? Odio incidunt nostrum magni porro laborum impedit eos architecto deserunt nihil sed vero amet commodi, nobis vel? Quod eveniet possimus eligendi fuga neque sit at beatae dolor. Illum eveniet eaque consequuntur reprehenderit vel laborum perspiciatis ipsum velit fugiat consectetur numquam pariatur enim assumenda aperiam necessitatibus, tenetur fugit, nisi optio recusandae repellendus aspernatur. Nulla alias facere blanditiis quo dolorem aliquam voluptatum nobis dignissimos! Ut adipisci excepturi fugiat, cupiditate voluptates in quo vitae ad dicta consequuntur ab debitis aperiam pariatur perspiciatis tempore voluptas eaque! Quis, non. Voluptates consequuntur, sit quidem deleniti corrupti quo autem consectetur, saepe, aliquam expedita laudantium atque nostrum quia illum iure commodi molestiae dolore accusamus! Saepe, illum atque odit eaque eveniet, cupiditate debitis nostrum, laboriosam autem quidem nulla minima facere aliquam delectus ab temporibus qui dolorem. Doloremque molestiae aperiam veritatis vitae, explicabo id temporibus enim odit eum quae saepe labore vel deserunt similique doloribus illo expedita incidunt, quaerat itaque? Unde, corporis quaerat! Impedit illo possimus cupiditate porro iure optio similique qui incidunt ducimus animi obcaecati ratione commodi minus modi neque saepe itaque, consectetur explicabo eos exercitationem facilis iusto ipsa fugit sit? Voluptatem inventore adipisci, nobis officiis illo debitis consequuntur numquam id reiciendis deleniti, alias tempore ullam blanditiis unde aliquid qui harum commodi dolore molestiae nesciunt eius tempora dicta. Quia alias consequatur saepe ipsam necessitatibus culpa distinctio voluptas inventore autem iusto veniam impedit, totam unde minus in ratione. Magni molestiae ducimus, quae praesentium quo dolorem velit quisquam maxime odit amet earum at atque neque suscipit alias ipsum quia. Deleniti vel ut accusantium assumenda optio sit animi omnis aperiam debitis maiores, eveniet corporis odio quisquam magnam ad cum, quia, veniam dolor illo. Recusandae, ad accusantium quos aperiam nesciunt dolores nam suscipit cum architecto, quam, velit excepturi dignissimos magnam tenetur. Quo natus suscipit incidunt quos. Eaque nostrum aut blanditiis vitae, error ullam hic natus qui nobis dignissimos rem, alias aperiam deleniti ipsum ipsa fugiat aspernatur laborum exercitationem! Magnam porro assumenda, sed neque incidunt libero rem facilis harum fuga quam? Sunt dignissimos magni officia quis, expedita vel. Earum obcaecati alias enim quibusdam quisquam ullam error, at aliquam perferendis id ut quo. Esse doloribus aliquid sapiente rerum debitis at dicta animi mollitia, consequatur iusto, enim ab quaerat necessitatibus, molestiae obcaecati voluptatibus optio quis dolorum nulla eius natus ullam minima. Asperiores, quis porro animi excepturi tempore, in et voluptatum veritatis optio commodi, iusto vero omnis sint. Dolorum magni voluptate voluptas quibusdam ipsa, quia quis omnis doloremque? Quas nam placeat eos at nemo facere autem ratione, ipsum porro maxime aspernatur natus. Sequi quos maiores rerum, fugiat ipsam hic dicta quae iure necessitatibus minima eum similique debitis architecto minus porro cumque quidem nihil! Totam repellat, nam hic repellendus cum minus aut rerum dignissimos, voluptatum porro incidunt. Earum amet ab nisi sint! Beatae maiores aut totam voluptatum, quibusdam distinctio mollitia sapiente aperiam corrupti porro voluptas ipsum facere necessitatibus reiciendis nam qui debitis nobis fugit, sed esse itaque eos. Nobis laborum autem suscipit labore dolorum iure eum a veniam.
+													</div>
+													<button class="btn btn-secondary btn-read-more d-lg-none">
+														<span class="show">Читати все</span> <span class="hide">Звернути текст</span>
+													</button>
+												</div>
+											</div>
+											<div class="serviceBlock-theme__body">
+												<div class="serviceBlock-information">
+													<div class="serviceBlock-theme__date">
+														<div class="serviceBlock-heading">
+															Срок здачі заказа модератору
+														</div>
+														<p>30.02.2019 16:00</p>
+													</div>
+													<div class="serviceBlock-theme__date">
+														<div class="serviceBlock-heading">
+															Норма часу на виконання
+														</div>
+														<p>1 д. 4 год. 30 хв.</p>
+													</div>
+													<div class="serviceBlock-theme__date ">
+														<div class="serviceBlock-heading">
+															Розмір гонорару
+														</div>
+														<p>2300.35 грн</p>
+													</div>
+													<div class="serviceBlock-theme__date">
+														<div class="serviceBlock-heading">
+															Складність завдання
+														</div>
+														<p>Легко</p>
+													</div>
+													<div class="serviceBlock-theme__date">
+														<div class="serviceBlock-heading">
+															Кількість сторінок
+														</div>
+														<p>30</p>
+													</div>
+													<div class="serviceBlock-theme__date ">
+														<div class="serviceBlock-heading">
+															Наявність іноземної мови
+														</div>
+														<p>Так</p>
+													</div>
+												</div>
+
+												<div class="serviceBlock-heading">
+													Чи був прицедент по похожій справі
+												</div>
+												<select class="custom-select">
+													<option >Так</option>
+													<option >Нi</option>
+												</select>
+
+												
+									<div class="serviceBlock-info toggle-block">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle btn-opp"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading">
+													Юридична класифікація завдання
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item ">
+													<div class="form-group services-pad">
+														<label>Тип послуги</label>
+														<select class="custom-select">
+															<option >Письмове питання</option>
+															<option >Письмове питання1</option>
+															<option >Письмове питання2</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<label>Тип спарви</label>
+														<select class="custom-select">
+															<option >Аліменти</option>
+															<option >Аліменти1</option>
+															<option >Аліменти2</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<label>Стадія спарви</label>
+														<select class="custom-select">
+															<option >Досудове врегулювання</option>
+															<option >Досудове врегулювання1</option>
+															<option >Досудове врегулювання2</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<label>Вид спарви</label>
+														<select class="custom-select">
+															<option >Стягненя аліментів</option>
+															<option >Стягненя аліментів1</option>
+															<option >Стягненя аліментів2</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<label>Тип документа для клієнта</label>
+														<textarea placeholder="Позов"></textarea>
+													</div>
+													<div class="btn-group">
+														<button class="btn btn-secondary">Відмінити зміни</button>
+														<button class="btn btn-primary btn-sm">Змін. класифік.</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+											</div>
+										</div>
+										<!-- serviceBlock-theme end -->
+										<!-- serviceBlock-info -->
+										<div class="serviceBlock-info toggle-block services-pad">
+											<div class="serviceBlock-info__action">
+												<button class="btn btn-toggle btn-opp"><i class="icon icon-angle-down"></i></button>
+											</div>
+											<div class="serviceBlock-info__body">
+												<div class="serviceBlock-info__text">
+													<div class="serviceBlock-heading">
+														Тема послуги від клієнта
+													</div>
+													<p class="serviceBlock-heading__description services-pad">
+														Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+													</p>
+													<div class="serviceBlock-info__body-inside toggle-item">
+														<div class="serviceBlock-heading">
+															Опис послуги клієнтом:
+														</div>
+														<div class="mobileNotScroll outText3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem, velit ullam asperiores voluptate error ex. Minus nostrum earum itaque laudantium culpa sapiente sint sunt praesentium totam obcaecati eos ab fugiat tenetur at perspiciatis quasi numquam sed, amet quisquam atque, veritatis possimus consequuntur sit. Iure molestiae fugiat distinctio assumenda voluptates repudiandae officiis! Quas, obcaecati ut! Vero, dignissimos. Perferendis illo repudiandae eligendi mollitia asperiores odio eum dolores sed soluta distinctio nemo quos, odit nam nihil placeat sequi quaerat cupiditate sint perspiciatis itaque, dolorum ut! Velit, exercitationem maiores. Ratione necessitatibus pariatur eius laboriosam mollitia non repudiandae quos dolore nemo. Non quam ipsam soluta blanditiis aut. Ducimus obcaecati placeat, dolores maiores itaque unde doloribus beatae provident a perferendis eum voluptates distinctio sed? In vero ab obcaecati nesciunt voluptatem et iusto non molestias quod explicabo, nostrum dignissimos temporibus ea expedita quisquam dolores quaerat dolor nobis porro magnam. Neque laborum, repellendus quisquam illum deleniti nostrum quia commodi quibusdam aliquid iusto recusandae sit natus. Voluptatibus fugit, dolorem perspiciatis dicta impedit eius! Ab repellat hic quos autem, asperiores veritatis quae impedit sed mollitia, aut esse dicta exercitationem nesciunt itaque eius ipsum molestiae distinctio quis accusamus dignissimos, quo error consequatur sint delectus. Numquam, expedita dolores quaerat laboriosam iusto assumenda a facere error molestias animi nemo ipsam. Molestias consequatur dignissimos rerum placeat maiores, accusamus omnis ipsum dicta incidunt architecto? Labore harum provident, est laboriosam explicabo exercitationem molestiae ipsum! Dolore quas et officiis odit ducimus officia voluptas facilis ullam, voluptatum omnis molestias quae expedita, neque cum velit ut! Quas dolorum incidunt nobis, molestiae iusto at aperiam hic tempore iure sapiente quo doloribus officiis sed quae, deleniti repellat ex mollitia delectus. Consectetur expedita vitae cum, laudantium eum quas repudiandae ullam dolores laboriosam ex cumque provident corrupti sint tenetur possimus enim aperiam voluptatibus doloremque qui inventore adipisci recusandae! Voluptatem ea id repellat sint eius deserunt quasi? Ab doloremque sit provident architecto. Autem reprehenderit nostrum at atque sapiente ducimus debitis corporis eum ea numquam esse labore eveniet excepturi optio exercitationem, pariatur quae reiciendis quas quos ad soluta dignissimos quia. Aut, accusantium! Reprehenderit illo temporibus optio! Sunt ad libero dolores tempora hic nihil ratione vel reprehenderit provident nisi voluptates omnis modi velit sapiente voluptatibus voluptatum autem, aspernatur debitis doloribus facere officiis, delectus veritatis ut. Tempore recusandae provident cumque numquam, rerum possimus distinctio odio, quos, esse voluptatum explicabo alias ullam! Sed laudantium accusantium necessitatibus ipsa atque ab non. Officiis labore error facilis, fuga, voluptatibus assumenda magnam temporibus sint, itaque qui atque nihil ipsa minima aperiam culpa vero delectus. Pariatur tenetur cumque sapiente repellendus voluptas. Eaque necessitatibus dignissimos, perspiciatis praesentium reiciendis, minus error id quae nobis natus odit beatae, non esse exercitationem cupiditate sit! Placeat sequi ea dolorem corrupti voluptates dolores aliquid beatae quaerat temporibus voluptatibus ipsam minima dolor animi dolore mollitia, pariatur tenetur quis dolorum debitis voluptate non illo quos facilis qui. Perferendis, laboriosam quaerat expedita tempora facilis voluptate labore! Doloribus aliquam facere omnis dolores, tenetur culpa? Ratione, excepturi explicabo autem ipsam nobis facilis eaque dicta reprehenderit quod cupiditate dignissimos est quia voluptatibus nam dolorum non. Natus asperiores maxime tenetur ipsa id veniam soluta corporis? Odio incidunt nostrum magni porro laborum impedit eos architecto deserunt nihil sed vero amet commodi, nobis vel? Quod eveniet possimus eligendi fuga neque sit at beatae dolor. Illum eveniet eaque consequuntur reprehenderit vel laborum perspiciatis ipsum velit fugiat consectetur numquam pariatur enim assumenda aperiam necessitatibus, tenetur fugit, nisi optio recusandae repellendus aspernatur. Nulla alias facere blanditiis quo dolorem aliquam voluptatum nobis dignissimos! Ut adipisci excepturi fugiat, cupiditate voluptates in quo vitae ad dicta consequuntur ab debitis aperiam pariatur perspiciatis tempore voluptas eaque! Quis, non. Voluptates consequuntur, sit quidem deleniti corrupti quo autem consectetur, saepe, aliquam expedita laudantium atque nostrum quia illum iure commodi molestiae dolore accusamus! Saepe, illum atque odit eaque eveniet, cupiditate debitis nostrum, laboriosam autem quidem nulla minima facere aliquam delectus ab temporibus qui dolorem. Doloremque molestiae aperiam veritatis vitae, explicabo id temporibus enim odit eum quae saepe labore vel deserunt similique doloribus illo expedita incidunt, quaerat itaque? Unde, corporis quaerat! Impedit illo possimus cupiditate porro iure optio similique qui incidunt ducimus animi obcaecati ratione commodi minus modi neque saepe itaque, consectetur explicabo eos exercitationem facilis iusto ipsa fugit sit? Voluptatem inventore adipisci, nobis officiis illo debitis consequuntur numquam id reiciendis deleniti, alias tempore ullam blanditiis unde aliquid qui harum commodi dolore molestiae nesciunt eius tempora dicta. Quia alias consequatur saepe ipsam necessitatibus culpa distinctio voluptas inventore autem iusto veniam impedit, totam unde minus in ratione. Magni molestiae ducimus, quae praesentium quo dolorem velit quisquam maxime odit amet earum at atque neque suscipit alias ipsum quia. Deleniti vel ut accusantium assumenda optio sit animi omnis aperiam debitis maiores, eveniet corporis odio quisquam magnam ad cum, quia, veniam dolor illo. Recusandae, ad accusantium quos aperiam nesciunt dolores nam suscipit cum architecto, quam, velit excepturi dignissimos magnam tenetur. Quo natus suscipit incidunt quos. Eaque nostrum aut blanditiis vitae, error ullam hic natus qui nobis dignissimos rem, alias aperiam deleniti ipsum ipsa fugiat aspernatur laborum exercitationem! Magnam porro assumenda, sed neque incidunt libero rem facilis harum fuga quam? Sunt dignissimos magni officia quis, expedita vel. Earum obcaecati alias enim quibusdam quisquam ullam error, at aliquam perferendis id ut quo. Esse doloribus aliquid sapiente rerum debitis at dicta animi mollitia, consequatur iusto, enim ab quaerat necessitatibus, molestiae obcaecati voluptatibus optio quis dolorum nulla eius natus ullam minima. Asperiores, quis porro animi excepturi tempore, in et voluptatum veritatis optio commodi, iusto vero omnis sint. Dolorum magni voluptate voluptas quibusdam ipsa, quia quis omnis doloremque? Quas nam placeat eos at nemo facere autem ratione, ipsum porro maxime aspernatur natus. Sequi quos maiores rerum, fugiat ipsam hic dicta quae iure necessitatibus minima eum similique debitis architecto minus porro cumque quidem nihil! Totam repellat, nam hic repellendus cum minus aut rerum dignissimos, voluptatum porro incidunt. Earum amet ab nisi sint! Beatae maiores aut totam voluptatum, quibusdam distinctio mollitia sapiente aperiam corrupti porro voluptas ipsum facere necessitatibus reiciendis nam qui debitis nobis fugit, sed esse itaque eos. Nobis laborum autem suscipit labore dolorum iure eum a veniam.
+														</div>
+														<button class="btn btn-secondary btn-read-more d-lg-none">
+															<span class="show">Читати все</span> <span class="hide">Звернути текст</span>
+														</button>
+													</div>
+												</div>
+												<div class="serviceBlock-info__files">
+													<div class="serviceBlock-heading d-none-block">
+														Матеріали надані клієнтом:
+													</div>
+													<div class="serviceBlock-info__body-inside toggle-item">
+														<div class="mobileNotScroll">
+															<ul class="file-box">
+																<li class="file-box__item">
+																	<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Прошение о ходотайстве к в верховнasfasfas
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																	<div class="file-box__wrap">
+																		<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																	</div>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Копия свидетельства рееестрации земasadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Заявление про нарушение человечесadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Скан документа “Свыдетельство о влеdsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Счета
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Прошение
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Прошение о ходотайстве к в верховнasfasfas
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Копия свидетельства рееестрации земasadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Заявление про нарушение человечесadsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Скан документа “Свыдетельство о влеdsf
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Счета
+																	</span>
+																</li>
+																<li class="file-box__item">
+																	<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																	<span class="file-box__item-text">
+																		Прошение
+																	</span>
+																</li>
+															</ul>
+														</div>
+														<div class="btn-group">
+															<button class="btn btn-secondary btn-read-more d-lg-none">
+																<span class="show">Весь </span> <span class="hide">Звернути </span>список
+															</button>
+															<!-- <button class="btn btn-secondary">Додати файли</button> -->
+															<button class="btn btn-primary btn-sm">
+																Скачати всі файли
+															</button>
+														</div>
+														
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="handler">
+											<div class="btn-group handler-btn">
+												<button class="btn btn-secondary handler-btn__one js-open"><span class="hide">Прийняти заявку</span><span class="show">Створити завдання</span></button>
+												<button class="btn btn-secondary handler-btn__two js-open">Змінти заявку<i class="icon icon-angle-down"></i></button>
+												<button class="btn btn-secondary js-open">В іншу справу</button>
+												<button class="btn btn-secondary handler-btn__three js-open">Відхилити заявку<i class="icon icon-angle-down"></i></button>
+											</div>
+											<div class="handler-body">
+												<div class="handler-block__one js-block">
+													<div class="serviceBlock-heading">
+														Створити завдання
+													</div>
+													<div class="d-flex justify-content-between">
+														<div class="form-group">
+															<label>Вибір учасника</label>
+															<div class="mySelect">
+																<div class="mySelect-header">
+																	<span class="mySelect-header__title">
+																		Немає
+																	</span>
+																	<span class="mySelect-header__icon">
+																		<i class="icon icon-angle-down"></i>
+																	</span>
+																</div>
+																<div class="mySelect-body d-none">
+																		<div class="check-box">
+																			<input type="checkbox" id="part1">
+																			<label for="part1" class="js-check-box" disabled>Петров І. І.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part2">
+																			<label for="part2" class="js-check-box">Васльків С. Г.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part3">
+																			<label for="part3" class="js-check-box">Стасюк В. Я.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part4">
+																			<label for="part4" class="js-check-box">Яковлєв А. П.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part5">
+																			<label for="part5" class="js-check-box">Степаненко Я. І.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part6">
+																			<label for="part6" class="js-check-box">Яковлєв А. П.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part7">
+																			<label for="part7" class="js-check-box">Степаненко Я. І.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part8">
+																			<label for="part8" class="js-check-box">Стасюк В. Я.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part9">
+																			<label for="part9" class="js-check-box">Стасюк В. Я.</label>
+																		</div>
+																		<div class="check-box">
+																			<input type="checkbox" id="part10">
+																			<label for="part10" class="js-check-box">Стасюк В. Я.</label>
+																		</div>
+																</div>
+															</div>
+														</div>
+														<div class="form-group">
+															<label>Вибір додаткових дій</label>
+															<select class="custom-select">
+																<option >Немає</option>
+																<option >дія1</option>
+																<option >дія2</option>
+															</select>
+														</div>
+													</div>
+													<div class="form-group">
+														<label>Додатковий опис завдання</label>
+														<textarea></textarea>
+													</div>
+													<div class="btn-group">
+														<button class="btn btn-secondary js-close">Закрити</button>
+														<button class="btn btn-primary btn-sm">Створити</button>
+													</div>
+												</div>
+												<div class="handler-block__two js-block">
+													<div class="serviceBlock-heading">
+														Зміна заявки
+													</div>
+													<div class="form-group">
+														<label>Виберіть причину зміни заявки</label>
+														<select class="custom-select">
+															<option >Прекваліфікація типу послуги</option>
+															<option >Причина2</option>
+															<option >Причина3</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<label>Текст змінив завдання:</label>
+														<textarea></textarea>
+													</div>
+													<div class="btn-group">
+														<button class="btn btn-secondary js-close">Закрити</button>
+														<button class="btn btn-primary btn-sm">Підтвердити відмову</button>
+													</div>
+												</div>
+												<div class="handler-block__three js-block">
+													<div class="serviceBlock-heading">
+														Зміна заявки
+													</div>
+													<div class="form-group form-group-width">
+														<label>Якщо не згодні з поставленою задачою опишіть відмову</label>
+														<select class="custom-select">
+															<option >Часта зміна завдання</option>
+															<option >Причина2</option>
+															<option >Причина3</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<label>Текст відмови від даного завдання:</label>
+														<textarea></textarea>
+													</div>
+													<div class="form-group">
+														<label>Текст альтернативного рішення:</label>
+														<textarea></textarea>
+													</div>
+													<div class="btn-group">
+														<button class="btn btn-secondary js-close">Закрити</button>
+														<button class="btn btn-primary btn-sm">Підтвердити відмову</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- serviceBlock-info end  -->
+									</div>
+								<!-- serviceBlock-info-case end-->
+
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info toggle-block check-js mt-50">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle btn-opp"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body close">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading flag1 serviceBlock-heading__c-blue">
+													Внесенні зміни в заявку - клієнтом 1
+													<span class="serviceBlock-info__comments-date d-flex">
+														<div>
+															<i class="icon icon-date"></i>
+															02.11.19
+														</div>
+														<div>
+															<i class="icon icon-clock"></i>
+															10:26
+														</div>
+													</span>
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="mobileNotScroll outText2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem, velit ullam asperiores voluptate error ex. Minus nostrum earum itaque laudantium culpa sapiente sint sunt praesentium totam obcaecati eos ab fugiat tenetur at perspiciatis quasi numquam sed, amet quisquam atque, veritatis possimus consequuntur sit. Iure molestiae fugiat distinctio assumenda voluptates repudiandae officiis! Quas, obcaecati ut! Vero, dignissimos. Perferendis illo repudiandae eligendi mollitia asperiores odio eum dolores sed soluta distinctio nemo quos, odit nam nihil placeat sequi quaerat cupiditate sint perspiciatis itaque, dolorum ut! Velit, exercitationem maiores. Ratione necessitatibus pariatur eius laboriosam mollitia non repudiandae quos dolore nemo. Non quam ipsam soluta blanditiis aut. Ducimus obcaecati placeat, dolores maiores itaque unde doloribus beatae provident a perferendis eum voluptates distinctio sed? In vero ab obcaecati nesciunt voluptatem et iusto non molestias quod explicabo, nostrum dignissimos temporibus ea expedita quisquam dolores quaerat dolor nobis porro magnam. Neque laborum, repellendus quisquam illum deleniti nostrum quia commodi quibusdam aliquid iusto recusandae sit natus. Voluptatibus fugit, dolorem perspiciatis dicta impedit eius! Ab repellat hic quos autem, asperiores veritatis quae impedit sed mollitia, aut esse dicta exercitationem nesciunt itaque eius ipsum molestiae distinctio quis accusamus dignissimos, quo error consequatur sint delectus. Numquam, expedita dolores quaerat laboriosam iusto assumenda a facere error molestias animi nemo ipsam. Molestias consequatur dignissimos rerum placeat maiores, accusamus omnis ipsum dicta incidunt architecto? Labore harum provident, est laboriosam explicabo exercitationem molestiae ipsum! Dolore quas et officiis odit ducimus officia voluptas facilis ullam, voluptatum omnis molestias quae expedita, neque cum velit ut! Quas dolorum incidunt nobis, molestiae iusto at aperiam hic tempore iure sapiente quo doloribus officiis sed quae, deleniti repellat ex mollitia delectus. Consectetur expedita vitae cum, laudantium eum quas repudiandae ullam dolores laboriosam ex cumque provident corrupti sint tenetur possimus enim aperiam voluptatibus doloremque qui inventore adipisci recusandae! Voluptatem ea id repellat sint eius deserunt quasi? Ab doloremque sit provident architecto. Autem reprehenderit nostrum at atque sapiente ducimus debitis corporis eum ea numquam esse labore eveniet excepturi optio exercitationem, pariatur quae reiciendis quas quos ad soluta dignissimos quia. Aut, accusantium! Reprehenderit illo temporibus optio! Sunt ad libero dolores tempora hic nihil ratione vel reprehenderit provident nisi voluptates omnis modi velit sapiente voluptatibus voluptatum autem, aspernatur debitis doloribus facere officiis, delectus veritatis ut. Tempore recusandae provident cumque numquam, rerum possimus distinctio odio, quos, esse voluptatum explicabo alias ullam! Sed laudantium accusantium necessitatibus ipsa atque ab non. Officiis labore error facilis, fuga, voluptatibus assumenda magnam temporibus sint, itaque qui atque nihil ipsa minima aperiam culpa vero delectus. Pariatur tenetur cumque sapiente repellendus voluptas. Eaque necessitatibus dignissimos, perspiciatis praesentium reiciendis, minus error id quae nobis natus odit beatae, non esse exercitationem cupiditate sit! Placeat sequi ea dolorem corrupti voluptates dolores aliquid beatae quaerat temporibus voluptatibus ipsam minima dolor animi dolore mollitia, pariatur tenetur quis dolorum debitis voluptate non illo quos facilis qui. Perferendis, laboriosam quaerat expedita tempora facilis voluptate labore! Doloribus aliquam facere omnis dolores, tenetur culpa? Ratione, excepturi explicabo autem ipsam nobis facilis eaque dicta reprehenderit quod cupiditate dignissimos est quia voluptatibus nam dolorum non. Natus asperiores maxime tenetur ipsa id veniam soluta corporis? Odio incidunt nostrum magni porro laborum impedit eos architecto deserunt nihil sed vero amet commodi, nobis vel? Quod eveniet possimus eligendi fuga neque sit at beatae dolor. Illum eveniet eaque consequuntur reprehenderit vel laborum perspiciatis ipsum velit fugiat consectetur numquam pariatur enim assumenda aperiam necessitatibus, tenetur fugit, nisi optio recusandae repellendus aspernatur. Nulla alias facere blanditiis quo dolorem aliquam voluptatum nobis dignissimos! Ut adipisci excepturi fugiat, cupiditate voluptates in quo vitae ad dicta consequuntur ab debitis aperiam pariatur perspiciatis tempore voluptas eaque! Quis, non. Voluptates consequuntur, sit quidem deleniti corrupti quo autem consectetur, saepe, aliquam expedita laudantium atque nostrum quia illum iure commodi molestiae dolore accusamus! Saepe, illum atque odit eaque eveniet, cupiditate debitis nostrum, laboriosam autem quidem nulla minima facere aliquam delectus ab temporibus qui dolorem. Doloremque molestiae aperiam veritatis vitae, explicabo id temporibus enim odit eum quae saepe labore vel deserunt similique doloribus illo expedita incidunt, quaerat itaque? Unde, corporis quaerat! Impedit illo possimus cupiditate porro iure optio similique qui incidunt ducimus animi obcaecati ratione commodi minus modi neque saepe itaque, consectetur explicabo eos exercitationem facilis iusto ipsa fugit sit? Voluptatem inventore adipisci, nobis officiis illo debitis consequuntur numquam id reiciendis deleniti, alias tempore ullam blanditiis unde aliquid qui harum commodi dolore molestiae nesciunt eius tempora dicta. Quia alias consequatur saepe ipsam necessitatibus culpa distinctio voluptas inventore autem iusto veniam impedit, totam unde minus in ratione. Magni molestiae ducimus, quae praesentium quo dolorem velit quisquam maxime odit amet earum at atque neque suscipit alias ipsum quia. Deleniti vel ut accusantium assumenda optio sit animi omnis aperiam debitis maiores, eveniet corporis odio quisquam magnam ad cum, quia, veniam dolor illo. Recusandae, ad accusantium quos aperiam nesciunt dolores nam suscipit cum architecto, quam, velit excepturi dignissimos magnam tenetur. Quo natus suscipit incidunt quos. Eaque nostrum aut blanditiis vitae, error ullam hic natus qui nobis dignissimos rem, alias aperiam deleniti ipsum ipsa fugiat aspernatur laborum exercitationem! Magnam porro assumenda, sed neque incidunt libero rem facilis harum fuga quam? Sunt dignissimos magni officia quis, expedita vel. Earum obcaecati alias enim quibusdam quisquam ullam error, at aliquam perferendis id ut quo. Esse doloribus aliquid sapiente rerum debitis at dicta animi mollitia, consequatur iusto, enim ab quaerat necessitatibus, molestiae obcaecati voluptatibus optio quis dolorum nulla eius natus ullam minima. Asperiores, quis porro animi excepturi tempore, in et voluptatum veritatis optio commodi, iusto vero omnis sint. Dolorum magni voluptate voluptas quibusdam ipsa, quia quis omnis doloremque? Quas nam placeat eos at nemo facere autem ratione, ipsum porro maxime aspernatur natus. Sequi quos maiores rerum, fugiat ipsam hic dicta quae iure necessitatibus minima eum similique debitis architecto minus porro cumque quidem nihil! Totam repellat, nam hic repellendus cum minus aut rerum dignissimos, voluptatum porro incidunt. Earum amet ab nisi sint! Beatae maiores aut totam voluptatum, quibusdam distinctio mollitia sapiente aperiam corrupti porro voluptas ipsum facere necessitatibus reiciendis nam qui debitis nobis fugit, sed esse itaque eos. Nobis laborum autem suscipit labore dolorum iure eum a veniam.
+													</div>
+													<button class="btn btn-secondary btn-read-more d-lg-none">
+														<span class="show">Читати все</span> <span class="hide">Звернути текст</span>
+													</button>
+												</div>
+											</div>
+											<div class="serviceBlock-info__files">
+												<div class="serviceBlock-heading d-none-block">
+													Додані файли:
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<!-- <div class="mobileNotScroll">
+														<ul class="file-box">
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение о ходотайстве к в верховнasfasfas
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+																<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Копия свидетельства рееестрации земasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Заявление про нарушение человечесadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Скан документа “Свыдетельство о влеdsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение о ходотайстве к в верховнasfasfas
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Копия свидетельства рееестрации земasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Заявление про нарушение человечесadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Скан документа “Свыдетельство о влеdsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение
+																</span>
+															</li>
+														</ul>
+													</div> -->
+													<div class="btn-group">
+														<button class="btn btn-secondary btn-read-more d-lg-none">
+															<span class="show">Весь </span> <span class="hide">Звернути </span>список
+														</button>
+														<button class="btn btn-primary btn-sm">
+															Скачати всі файли
+														</button>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info end  -->
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info toggle-block check-js">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle btn-opp"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body close">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading flag1">
+													Внесення змін в заяку - адвокатом 2:
+													<span class="serviceBlock-info__comments-date d-flex">
+														<div>
+															<i class="icon icon-date"></i>
+															02.11.19
+														</div>
+														<div>
+															<i class="icon icon-clock"></i>
+															10:26
+														</div>
+													</span>
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="mobileNotScroll outText2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem, velit ullam asperiores voluptate error ex. Minus nostrum earum itaque laudantium culpa sapiente sint sunt praesentium totam obcaecati eos ab fugiat tenetur at perspiciatis quasi numquam sed, amet quisquam atque, veritatis possimus consequuntur sit. Iure molestiae fugiat distinctio assumenda voluptates repudiandae officiis! Quas, obcaecati ut! Vero, dignissimos. Perferendis illo repudiandae eligendi mollitia asperiores odio eum dolores sed soluta distinctio nemo quos, odit nam nihil placeat sequi quaerat cupiditate sint perspiciatis itaque, dolorum ut! Velit, exercitationem maiores. Ratione necessitatibus pariatur eius laboriosam mollitia non repudiandae quos dolore nemo. Non quam ipsam soluta blanditiis aut. Ducimus obcaecati placeat, dolores maiores itaque unde doloribus beatae provident a perferendis eum voluptates distinctio sed? In vero ab obcaecati nesciunt voluptatem et iusto non molestias quod explicabo, nostrum dignissimos temporibus ea expedita quisquam dolores quaerat dolor nobis porro magnam. Neque laborum, repellendus quisquam illum deleniti nostrum quia commodi quibusdam aliquid iusto recusandae sit natus. Voluptatibus fugit, dolorem perspiciatis dicta impedit eius! Ab repellat hic quos autem, asperiores veritatis quae impedit sed mollitia, aut esse dicta exercitationem nesciunt itaque eius ipsum molestiae distinctio quis accusamus dignissimos, quo error consequatur sint delectus. Numquam, expedita dolores quaerat laboriosam iusto assumenda a facere error molestias animi nemo ipsam. Molestias consequatur dignissimos rerum placeat maiores, accusamus omnis ipsum dicta incidunt architecto? Labore harum provident, est laboriosam explicabo exercitationem molestiae ipsum! Dolore quas et officiis odit ducimus officia voluptas facilis ullam, voluptatum omnis molestias quae expedita, neque cum velit ut! Quas dolorum incidunt nobis, molestiae iusto at aperiam hic tempore iure sapiente quo doloribus officiis sed quae, deleniti repellat ex mollitia delectus. Consectetur expedita vitae cum, laudantium eum quas repudiandae ullam dolores laboriosam ex cumque provident corrupti sint tenetur possimus enim aperiam voluptatibus doloremque qui inventore adipisci recusandae! Voluptatem ea id repellat sint eius deserunt quasi? Ab doloremque sit provident architecto. Autem reprehenderit nostrum at atque sapiente ducimus debitis corporis eum ea numquam esse labore eveniet excepturi optio exercitationem, pariatur quae reiciendis quas quos ad soluta dignissimos quia. Aut, accusantium! Reprehenderit illo temporibus optio! Sunt ad libero dolores tempora hic nihil ratione vel reprehenderit provident nisi voluptates omnis modi velit sapiente voluptatibus voluptatum autem, aspernatur debitis doloribus facere officiis, delectus veritatis ut. Tempore recusandae provident cumque numquam, rerum possimus distinctio odio, quos, esse voluptatum explicabo alias ullam! Sed laudantium accusantium necessitatibus ipsa atque ab non. Officiis labore error facilis, fuga, voluptatibus assumenda magnam temporibus sint, itaque qui atque nihil ipsa minima aperiam culpa vero delectus. Pariatur tenetur cumque sapiente repellendus voluptas. Eaque necessitatibus dignissimos, perspiciatis praesentium reiciendis, minus error id quae nobis natus odit beatae, non esse exercitationem cupiditate sit! Placeat sequi ea dolorem corrupti voluptates dolores aliquid beatae quaerat temporibus voluptatibus ipsam minima dolor animi dolore mollitia, pariatur tenetur quis dolorum debitis voluptate non illo quos facilis qui. Perferendis, laboriosam quaerat expedita tempora facilis voluptate labore! Doloribus aliquam facere omnis dolores, tenetur culpa? Ratione, excepturi explicabo autem ipsam nobis facilis eaque dicta reprehenderit quod cupiditate dignissimos est quia voluptatibus nam dolorum non. Natus asperiores maxime tenetur ipsa id veniam soluta corporis? Odio incidunt nostrum magni porro laborum impedit eos architecto deserunt nihil sed vero amet commodi, nobis vel? Quod eveniet possimus eligendi fuga neque sit at beatae dolor. Illum eveniet eaque consequuntur reprehenderit vel laborum perspiciatis ipsum velit fugiat consectetur numquam pariatur enim assumenda aperiam necessitatibus, tenetur fugit, nisi optio recusandae repellendus aspernatur. Nulla alias facere blanditiis quo dolorem aliquam voluptatum nobis dignissimos! Ut adipisci excepturi fugiat, cupiditate voluptates in quo vitae ad dicta consequuntur ab debitis aperiam pariatur perspiciatis tempore voluptas eaque! Quis, non. Voluptates consequuntur, sit quidem deleniti corrupti quo autem consectetur, saepe, aliquam expedita laudantium atque nostrum quia illum iure commodi molestiae dolore accusamus! Saepe, illum atque odit eaque eveniet, cupiditate debitis nostrum, laboriosam autem quidem nulla minima facere aliquam delectus ab temporibus qui dolorem. Doloremque molestiae aperiam veritatis vitae, explicabo id temporibus enim odit eum quae saepe labore vel deserunt similique doloribus illo expedita incidunt, quaerat itaque? Unde, corporis quaerat! Impedit illo possimus cupiditate porro iure optio similique qui incidunt ducimus animi obcaecati ratione commodi minus modi neque saepe itaque, consectetur explicabo eos exercitationem facilis iusto ipsa fugit sit? Voluptatem inventore adipisci, nobis officiis illo debitis consequuntur numquam id reiciendis deleniti, alias tempore ullam blanditiis unde aliquid qui harum commodi dolore molestiae nesciunt eius tempora dicta. Quia alias consequatur saepe ipsam necessitatibus culpa distinctio voluptas inventore autem iusto veniam impedit, totam unde minus in ratione. Magni molestiae ducimus, quae praesentium quo dolorem velit quisquam maxime odit amet earum at atque neque suscipit alias ipsum quia. Deleniti vel ut accusantium assumenda optio sit animi omnis aperiam debitis maiores, eveniet corporis odio quisquam magnam ad cum, quia, veniam dolor illo. Recusandae, ad accusantium quos aperiam nesciunt dolores nam suscipit cum architecto, quam, velit excepturi dignissimos magnam tenetur. Quo natus suscipit incidunt quos. Eaque nostrum aut blanditiis vitae, error ullam hic natus qui nobis dignissimos rem, alias aperiam deleniti ipsum ipsa fugiat aspernatur laborum exercitationem! Magnam porro assumenda, sed neque incidunt libero rem facilis harum fuga quam? Sunt dignissimos magni officia quis, expedita vel. Earum obcaecati alias enim quibusdam quisquam ullam error, at aliquam perferendis id ut quo. Esse doloribus aliquid sapiente rerum debitis at dicta animi mollitia, consequatur iusto, enim ab quaerat necessitatibus, molestiae obcaecati voluptatibus optio quis dolorum nulla eius natus ullam minima. Asperiores, quis porro animi excepturi tempore, in et voluptatum veritatis optio commodi, iusto vero omnis sint. Dolorum magni voluptate voluptas quibusdam ipsa, quia quis omnis doloremque? Quas nam placeat eos at nemo facere autem ratione, ipsum porro maxime aspernatur natus. Sequi quos maiores rerum, fugiat ipsam hic dicta quae iure necessitatibus minima eum similique debitis architecto minus porro cumque quidem nihil! Totam repellat, nam hic repellendus cum minus aut rerum dignissimos, voluptatum porro incidunt. Earum amet ab nisi sint! Beatae maiores aut totam voluptatum, quibusdam distinctio mollitia sapiente aperiam corrupti porro voluptas ipsum facere necessitatibus reiciendis nam qui debitis nobis fugit, sed esse itaque eos. Nobis laborum autem suscipit labore dolorum iure eum a veniam.
+													</div>
+													<button class="btn btn-secondary btn-read-more d-lg-none">
+														<span class="show">Читати все</span> <span class="hide">Звернути текст</span>
+													</button>
+													<div class="text-report">
+														<div class="form-group">
+															<label>Писати/редагувати зміни в заявку - адвокатом 2:</label>
+															<textarea name="mess2" class="textarea-redag"></textarea>
+														</div>
+														<div class="btn-group">
+															<button class="btn btn-secondary modidy2">Редагувати</button>
+															<button class="btn btn-secondary not-modidy2">Скасувати</button>
+															<button class="btn btn-primary modidy-output2">Публікувати</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="serviceBlock-info__files">
+												<div class="serviceBlock-heading d-none-block">
+													Додані матеріали:
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="mobileNotScroll">
+														<ul class="file-box">
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Прошение о ходотайстве к в верховнasfasfas
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+																<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Копия свидетельства рееестрации земasadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Заявление про нарушение человечесadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Скан документа “Свыдетельство о влеdsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Счета
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Прошение
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Прошение о ходотайстве к в верховнasfasfas
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Счета по распределению потоков денasadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Копия свидетельства рееестрации земasadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Заявление про нарушение человечесadsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Скан документа “Свыдетельство о влеdsf
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Счета
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Прошение
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<div class="btn-group flag">
+														<button class="btn btn-secondary btn-read-more d-lg-none">
+															<span class="show">Весь </span> <span class="hide">Звернути </span>список
+														</button>
+														<button class="btn btn-secondary">Додати файли</button>
+														<button class="btn btn-primary btn-sm">
+															Скачати всі файли
+														</button>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info end -->
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info toggle-block check-js">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle btn-opp"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body close">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading flag1">
+													Звіт про надання послуги:
+													<span class="serviceBlock-info__comments-date d-flex">
+														<div>
+															<i class="icon icon-date"></i>
+															02.11.19
+														</div>
+														<div>
+															<i class="icon icon-clock"></i>
+															10:26
+														</div>
+													</span>
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="mobileNotScroll outText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem, velit ullam asperiores voluptate error ex. Minus nostrum earum itaque laudantium culpa sapiente sint sunt praesentium totam obcaecati eos ab fugiat tenetur at perspiciatis quasi numquam sed, amet quisquam atque, veritatis possimus consequuntur sit. Iure molestiae fugiat distinctio assumenda voluptates repudiandae officiis! Quas, obcaecati ut! Vero, dignissimos. Perferendis illo repudiandae eligendi mollitia asperiores odio eum dolores sed soluta distinctio nemo quos, odit nam nihil placeat sequi quaerat cupiditate sint perspiciatis itaque, dolorum ut! Velit, exercitationem maiores. Ratione necessitatibus pariatur eius laboriosam mollitia non repudiandae quos dolore nemo. Non quam ipsam soluta blanditiis aut. Ducimus obcaecati placeat, dolores maiores itaque unde doloribus beatae provident a perferendis eum voluptates distinctio sed? In vero ab obcaecati nesciunt voluptatem et iusto non molestias quod explicabo, nostrum dignissimos temporibus ea expedita quisquam dolores quaerat dolor nobis porro magnam. Neque laborum, repellendus quisquam illum deleniti nostrum quia commodi quibusdam aliquid iusto recusandae sit natus. Voluptatibus fugit, dolorem perspiciatis dicta impedit eius! Ab repellat hic quos autem, asperiores veritatis quae impedit sed mollitia, aut esse dicta exercitationem nesciunt itaque eius ipsum molestiae distinctio quis accusamus dignissimos, quo error consequatur sint delectus. Numquam, expedita dolores quaerat laboriosam iusto assumenda a facere error molestias animi nemo ipsam. Molestias consequatur dignissimos rerum placeat maiores, accusamus omnis ipsum dicta incidunt architecto? Labore harum provident, est laboriosam explicabo exercitationem molestiae ipsum! Dolore quas et officiis odit ducimus officia voluptas facilis ullam, voluptatum omnis molestias quae expedita, neque cum velit ut! Quas dolorum incidunt nobis, molestiae iusto at aperiam hic tempore iure sapiente quo doloribus officiis sed quae, deleniti repellat ex mollitia delectus. Consectetur expedita vitae cum, laudantium eum quas repudiandae ullam dolores laboriosam ex cumque provident corrupti sint tenetur possimus enim aperiam voluptatibus doloremque qui inventore adipisci recusandae! Voluptatem ea id repellat sint eius deserunt quasi? Ab doloremque sit provident architecto. Autem reprehenderit nostrum at atque sapiente ducimus debitis corporis eum ea numquam esse labore eveniet excepturi optio exercitationem, pariatur quae reiciendis quas quos ad soluta dignissimos quia. Aut, accusantium! Reprehenderit illo temporibus optio! Sunt ad libero dolores tempora hic nihil ratione vel reprehenderit provident nisi voluptates omnis modi velit sapiente voluptatibus voluptatum autem, aspernatur debitis doloribus facere officiis, delectus veritatis ut. Tempore recusandae provident cumque numquam, rerum possimus distinctio odio, quos, esse voluptatum explicabo alias ullam! Sed laudantium accusantium necessitatibus ipsa atque ab non. Officiis labore error facilis, fuga, voluptatibus assumenda magnam temporibus sint, itaque qui atque nihil ipsa minima aperiam culpa vero delectus. Pariatur tenetur cumque sapiente repellendus voluptas. Eaque necessitatibus dignissimos, perspiciatis praesentium reiciendis, minus error id quae nobis natus odit beatae, non esse exercitationem cupiditate sit! Placeat sequi ea dolorem corrupti voluptates dolores aliquid beatae quaerat temporibus voluptatibus ipsam minima dolor animi dolore mollitia, pariatur tenetur quis dolorum debitis voluptate non illo quos facilis qui. Perferendis, laboriosam quaerat expedita tempora facilis voluptate labore! Doloribus aliquam facere omnis dolores, tenetur culpa? Ratione, excepturi explicabo autem ipsam nobis facilis eaque dicta reprehenderit quod cupiditate dignissimos est quia voluptatibus nam dolorum non. Natus asperiores maxime tenetur ipsa id veniam soluta corporis? Odio incidunt nostrum magni porro laborum impedit eos architecto deserunt nihil sed vero amet commodi, nobis vel? Quod eveniet possimus eligendi fuga neque sit at beatae dolor. Illum eveniet eaque consequuntur reprehenderit vel laborum perspiciatis ipsum velit fugiat consectetur numquam pariatur enim assumenda aperiam necessitatibus, tenetur fugit, nisi optio recusandae repellendus aspernatur. Nulla alias facere blanditiis quo dolorem aliquam voluptatum nobis dignissimos! Ut adipisci excepturi fugiat, cupiditate voluptates in quo vitae ad dicta consequuntur ab debitis aperiam pariatur perspiciatis tempore voluptas eaque! Quis, non. Voluptates consequuntur, sit quidem deleniti corrupti quo autem consectetur, saepe, aliquam expedita laudantium atque nostrum quia illum iure commodi molestiae dolore accusamus! Saepe, illum atque odit eaque eveniet, cupiditate debitis nostrum, laboriosam autem quidem nulla minima facere aliquam delectus ab temporibus qui dolorem. Doloremque molestiae aperiam veritatis vitae, explicabo id temporibus enim odit eum quae saepe labore vel deserunt similique doloribus illo expedita incidunt, quaerat itaque? Unde, corporis quaerat! Impedit illo possimus cupiditate porro iure optio similique qui incidunt ducimus animi obcaecati ratione commodi minus modi neque saepe itaque, consectetur explicabo eos exercitationem facilis iusto ipsa fugit sit? Voluptatem inventore adipisci, nobis officiis illo debitis consequuntur numquam id reiciendis deleniti, alias tempore ullam blanditiis unde aliquid qui harum commodi dolore molestiae nesciunt eius tempora dicta. Quia alias consequatur saepe ipsam necessitatibus culpa distinctio voluptas inventore autem iusto veniam impedit, totam unde minus in ratione. Magni molestiae ducimus, quae praesentium quo dolorem velit quisquam maxime odit amet earum at atque neque suscipit alias ipsum quia. Deleniti vel ut accusantium assumenda optio sit animi omnis aperiam debitis maiores, eveniet corporis odio quisquam magnam ad cum, quia, veniam dolor illo. Recusandae, ad accusantium quos aperiam nesciunt dolores nam suscipit cum architecto, quam, velit excepturi dignissimos magnam tenetur. Quo natus suscipit incidunt quos. Eaque nostrum aut blanditiis vitae, error ullam hic natus qui nobis dignissimos rem, alias aperiam deleniti ipsum ipsa fugiat aspernatur laborum exercitationem! Magnam porro assumenda, sed neque incidunt libero rem facilis harum fuga quam? Sunt dignissimos magni officia quis, expedita vel. Earum obcaecati alias enim quibusdam quisquam ullam error, at aliquam perferendis id ut quo. Esse doloribus aliquid sapiente rerum debitis at dicta animi mollitia, consequatur iusto, enim ab quaerat necessitatibus, molestiae obcaecati voluptatibus optio quis dolorum nulla eius natus ullam minima. Asperiores, quis porro animi excepturi tempore, in et voluptatum veritatis optio commodi, iusto vero omnis sint. Dolorum magni voluptate voluptas quibusdam ipsa, quia quis omnis doloremque? Quas nam placeat eos at nemo facere autem ratione, ipsum porro maxime aspernatur natus. Sequi quos maiores rerum, fugiat ipsam hic dicta quae iure necessitatibus minima eum similique debitis architecto minus porro cumque quidem nihil! Totam repellat, nam hic repellendus cum minus aut rerum dignissimos, voluptatum porro incidunt. Earum amet ab nisi sint! Beatae maiores aut totam voluptatum, quibusdam distinctio mollitia sapiente aperiam corrupti porro voluptas ipsum facere necessitatibus reiciendis nam qui debitis nobis fugit, sed esse itaque eos. Nobis laborum autem suscipit labore dolorum iure eum a veniam.
+													</div>
+													<button class="btn btn-secondary btn-read-more d-lg-none">
+														<span class="show">Читати все</span> <span class="hide">Звернути текст</span>
+													</button>
+													<div class="text-report">
+														<div class="form-group">
+															<label>Текст звіту по наданій послузі:</label>
+															<textarea name="mess" class="textarea-redag"></textarea>
+														</div>
+														<div class="btn-group">
+															<button class="btn btn-secondary modidy">Редагувати</button>
+															<button class="btn btn-secondary not-modidy">Скасувати</button>
+															<button class="btn btn-primary modidy-output">Публікувати</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="serviceBlock-info__files">
+												<div class="serviceBlock-heading d-none-block">
+													Матеріали відповіді для клієнта:
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="mobileNotScroll">
+														<ul class="file-box">
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																	Прошение о ходотайстве к в верховнasfasfas
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+																
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<div class="file-box__wrap">
+																		<span class="file-box__item-text">
+																			Счета по распределению потоков денasadsf
+																		</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+																
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																
+																<span class="file-box__item-text">
+																	Копия свидетельства рееестрации земasadsf
+																</span>
+																<div class="file-box__wrap">
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Заявление про нарушение человечесadsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Скан документа “Свыдетельство о влеdsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Счета
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Прошение
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Прошение о ходотайстве к в верховнasfasfas
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Копия свидетельства рееестрации земasadsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Заявление про нарушение человечесadsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<div class="file-box__wrap">
+																<span class="file-box__item-text">
+																	Скан документа “Свыдетельство о влеdsf
+																</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Счета
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+															<li class="file-box__item">
+																<button class="icon icon-close btn btn-delete"></button>
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<div class="file-box__wrap">
+																	<span class="file-box__item-text">
+																		Прошение
+																	</span>
+																	<small>21.03.2020   14:23</small>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<div class="btn-group">
+														<button class="btn btn-secondary btn-read-more d-lg-none">
+															<span class="show">Весь </span> <span class="hide">Звернути </span>список
+														</button>
+														<button class="btn btn-primary btn-sm">
+															Додати файли
+														</button>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info end -->
+									<!-- serviceBlock-info__checkout -->
+									<div class="serviceBlock-info__checkout disabled">
+										<div class="serviceBlock-info__checkout-text">
+											<p>Опрацювавши послугу натисніть кнопку “Допрацювання 1”. Будьте уважні, після натискання даної кнопки ви не зможити редагувати чи добавляти файли для доопрацюваня послуги.</p>
+										</div>
+										<div class="serviceBlock-info__checkout-action">
+											<div>
+												<button class="btn btn-default btn-sm">Послугу виконано</button>
+											</div>
+											<div>
+												<i class="icon icon-date"></i>
+												02.11.19
+											</div>
+											<div>
+												<i class="icon icon-clock"></i>
+												10:26
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info__checkout end -->
+									<!-- serviceBlock-info__comments -->
+									<div class="serviceBlock-info toggle-block check-js">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle btn-opp"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body serviceBlock-info__comments close">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading flag1">
+													<div>
+														Коментарі модератора: 
+													</div>
+													<span class="serviceBlock-info__comments-date d-flex">
+														<div>
+															<i class="icon icon-date"></i>
+															02.11.19
+														</div>
+														<div>
+															<i class="icon icon-clock"></i>
+															10:26
+														</div>
+													</span>
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<p>
+														Послуга не виконана в повному обсязі. Допрацювати:
+													</p>
+													<ol>
+														<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+														<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+													</ol>
+
+												</div>
+											</div>
+											<div class="serviceBlock-info__files">
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info__comments end -->
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info toggle-block check-js">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle btn-opp"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body close">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading flag1">
+													Доопрацювання 1. <span>Звіт про надання послуги:</span>
+													<span class="serviceBlock-info__comments-date d-flex">
+														<div>
+															<i class="icon icon-date"></i>
+															02.11.19
+														</div>
+														<div>
+															<i class="icon icon-clock"></i>
+															10:26
+														</div>
+													</span>
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="text-report">
+														<div class="form-group">
+															<label>Текст звіту по наданій послузі:</label>
+															<textarea name="mess1"></textarea>
+														</div>
+														<div class="btn-group">
+															<button class="btn btn-secondary modidy1">Редагувати</button>
+															<button class="btn btn-secondary not-modidy1">Скасувати</button>
+															<button class="btn btn-primary modidy-output1">Публікувати</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="serviceBlock-info__files">
+												<div class="serviceBlock-heading d-none-block">
+													Матеріали відповіді для клієнта:
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="btn-group">
+														<button class="btn btn-primary btn-sm">
+															Додати файли
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info end -->
+									<!-- serviceBlock-info__checkout -->
+									<div class="serviceBlock-info__checkout mb">
+										<div class="serviceBlock-info__checkout-text">
+											<p>Опрацювавши послугу натисніть кнопку “Допрацювання 1”. Будьте уважні, після натискання даної кнопки ви не зможити редагувати чи добавляти файли для доопрацюваня послуги.</p>
+										</div>
+										<div class="serviceBlock-info__checkout-action">
+											<div>
+												<button class="btn btn-primary btn-sm">Допрацюваня 1</button>
+											</div>
+											<div>
+												<i class="icon icon-date"></i>
+												02.11.19
+											</div>
+											<div>
+												<i class="icon icon-clock"></i>
+												10:26
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info__checkout end -->
+									<!-- serviceBlock-info__checkout  -->
+									<div class="serviceBlock-info__button d-none">
+										<button class="btn btn-secondary btn-open">Змінити статус заявки
+											<div class="dot">
+												<div class="dot__item">
+												</div>
+											</div>
+										</button>
+										<div class="dot-body">
+											<div class="serviceBlock-heading">Виберіть дію для зміни статуса заявки 
+												<span class="popup-close dot-close">
+													<i class="icon icon-close"></i>
+												</span>
+											</div>
+											<ul>
+												<li class="dot-body--item dot-change">
+													<div class="check-box">
+														<input type="checkbox" id="dot1">
+														<label for="dot1">Змінити заявку</label>
+												  	</div>
+												</li>
+												<li class="dot-body--item dot-stop">
+													<div class="check-box">
+														<input type="checkbox" id="dot2">
+														<label for="dot2">Зупинити виконання заявки</label>
+												  	</div>
+												</li>
+												<li class="dot-body--item">
+													<div class="check-box">
+														<input type="checkbox" id="dot3">
+														<label for="dot3">Звязати з іншою заявкою</label>
+												  	</div>
+												</li>
+												<li class="dot-body--item">
+													<div class="check-box">
+														<input type="checkbox" id="dot4">
+														<label for="dot4">Перетворити в іншу заявку</label>
+												  	</div>
+												</li>
+												<li class="dot-body--item">
+													<div class="check-box">
+														<input type="checkbox" id="dot5">
+														<label for="dot5">Обєднати з іншою заявкою</label>
+												  	</div>
+												</li>
+												<li class="dot-body--item dot-reject">
+													<div class="check-box">
+														<input type="checkbox" id="dot6">
+														<label for="dot6">Відхилити заявку</label>
+												  	</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<!-- serviceBlock-info__checkout end -->
+								</div>
+								<!-- table-body end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block new">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00009
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod"  data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00008
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00007
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00006
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00005
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00004
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00003
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00002
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00001
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date mobile-date">
+										<div>
+											<span>
+												<i class="icon icon-date"></i>
+												<span>30.10.19</span>
+											</span>
+											<span>
+												<i class="icon icon-clock"></i>
+												<span>16:32</span>
+											</span>
+										</div>
+										<div>
+											<button class="btn btn-view open-modal-link" data-mfp-src="#modal-info">
+												<i class="icon icon-angle-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія \A виконання">
+										<span class="status status-rejected">
+											 Відхилено
+										</span>
+									</div>
+									<div class="table-header__col table-header__checkout-mod" data-title="Перевірка модератора">
+										<span class="status status-confirm">
+											Підтверджено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+						</div>
+						<div class="table-footer">
+							<div class="amout-messages">
+								<span class="amout-messages--text">
+									Показ.
+								</span>
+								<select class="custom-select">
+									<option value="10">10</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+							</div>
+							<div>
+								<div class="pagination">
+									<ul>
+										<li class="page-prev"><a href="" class="disabled"><span class="icon icon-angle-left"></span></a></li>
+										<li><span>1</span></li>
+										<li><a href="">2</a></li>
+										<li><a href="">3</a></li>
+										<li><a href="">4</a></li>
+										<li class="page-next"><a href=""><span class="icon icon-angle-right"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- table end -->
+				</div>
+			</main>
+			<!-- main end -->
+		</div>
+		<!-- content end -->
+	</div>
+
+	<div class="messenger">
+		<div class="messenger-group">
+			<div class="messenger-group__box">
+				<div class="messenger-group__box-head">
+					<div class="messenger-group__box-title">Диалоги</div>
+				</div>
+				<div class="messenger-group__box-body">
+					<div class="messenger-group__box-list">
+						<ul>
+							<li>
+								<span class="icon icon-checklist"></span>
+								<div class="messenger-group__box-list-title">Тех. поддержка</div>
+								<div class="messenger-group__box-list-date">12.10.2018   19:10</div>
+								<div class="messenger-group__box-list-count">1</div>
+							</li>
+							<li>
+								<span class="icon icon-webcam"></span>
+								<div class="messenger-group__box-list-title">Видеозвонок адвокату</div>
+								<div class="messenger-group__box-list-date">4 часа назад</div>
+								<div class="messenger-group__box-list-count">13</div>
+							</li>
+							<li>
+								<span class="icon icon-phone"></span>
+								<div class="messenger-group__box-list-title">Звонок адвокату</div>
+								<div class="messenger-group__box-list-date">4 часа назад</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="messenger-button js-messenger">
+			<span class="icon icon-phone"></span>
+			<span class="icon icon-close"></span>
+			<div class="counter">6</div>
+		</div>
+	</div>
+
+
+	<!-- ******************************************************************************************** -->
+
+	<div id="modal-info" class="mfp-hide modal-center modal-info">
+		
+		<div class="modal-body">
+			<div class="table">
+
+			<div class="table-header">
+				<div class="table-header__col">
+					<span>
+						Прийняли до викон.
+					</span>
+				</div>
+				<div class="table-header__col">
+					<span>
+						Потрібно виконати
+					</span>
+				</div>
+				<div class="table-header__col">
+					<span>
+						Виконали послугу.
+					</span>
+				</div>
+			</div>
+
+			<div class="table-content__item">
+				<div class="table-header">
+					<div class="table-header__col">
+						<span>
+							30.10.19 <br> 16:32
+						</span>
+					</div>
+					<div class="table-header__col">
+						<span>
+							30.10.19 <br> 16:32
+						</span>
+					</div>
+					<div class="table-header__col">
+						<span>
+							30.10.19 <br> 16:32
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+
+	<!-- ******************************************************************************************** -->
+	<!-- ******************************************* Popup ************************************************* -->
+	<div class="popup popup__dot-stop">
+		<div class="popup-bg"></div>
+		<div class="popup-body">
+			<div class="serviceBlock-heading">
+				<span>Зупинити виконання заявки</span>
+				<span class="popup-close dot-close">
+					<i class="icon icon-close"></i>
+				</span>
+			</div>
+			<div class="serviceBlock-heading">
+				Опишіть, по яким причинам зупиняється робота над заявкою
+			</div>
+			<div class="form-group form-group-width">
+				<label>Виберіть причини для зупинення заявки </label>
+				<select class="custom-select">
+					<option >Недостатність матеріалів</option>
+					<option >Причина2</option>
+					<option >Причина3</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Текст причини призупинення даного завдання: </label>
+				<textarea></textarea>
+			</div>
+			<div class="btn-group">
+				<button class="btn btn-secondary popup-close dot-close">Закрити</button>
+				<button class="btn btn-primary btn-sm">Підтвер. зупинення</button>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup__dot-reject">
+		<div class="popup-bg"></div>
+		<div class="popup-body">
+			<div class="serviceBlock-heading">
+				<span>Відхилити заявку</span>
+				<span class="popup-close dot-close">
+					<i class="icon icon-close"></i>
+				</span>
+			</div>
+			<div class="serviceBlock-heading">
+				Якщо не згодні з поставленою задачою опишіть відмову
+			</div>
+			<div class="form-group form-group-width">
+				<label>Виберіть причини відмови з довідника</label>
+				<select class="custom-select">
+					<option >Часта зміна завдання</option>
+					<option >Причина2</option>
+					<option >Причина3</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Текст відмови від даного завдання:</label>
+				<textarea></textarea>
+			</div>
+			<div class="form-group">
+				<label>Текст альтернативного рішення:</label>
+				<textarea></textarea>
+			</div>
+			<div class="btn-group">
+				<button class="btn btn-secondary popup-close dot-close">Закрити</button>
+				<button class="btn btn-primary btn-sm">Підтвердити відмову</button>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup__dot-change">
+		<div class="popup-bg"></div>
+		<div class="popup-body">
+			<div class="serviceBlock-heading">
+				<span>Зміна заявки</span>
+				<span class="popup-close dot-close">
+					<i class="icon icon-close"></i>
+				</span>
+			</div>
+			<div class="serviceBlock-heading">
+				Опишіть, по яким причинам змінюється заявка
+			</div>
+			<div class="form-group form-group-width">
+				<label>Виберіть причину зміни заявки</label>
+				<select class="custom-select">
+					<option >Прекваліфікація типу послуги</option>
+					<option >Причина2</option>
+					<option >Причина3</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Текст змінив завдання:</label>
+				<textarea></textarea>
+			</div>
+			<div class="btn-group">
+				<button class="btn btn-secondary popup-close dot-close">Закрити</button>
+				<button class="btn btn-primary btn-sm">Підтвердити зміни</button>
+			</div>
+		</div>
+	</div>
+	<!-- ******************************************* Popup End  ************************************************* -->
+	<!-- change -->
+
+ 
+
+	<script src="js/libs.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+
+.sidebar{
+	width: 65px;
+	background: #efefef;
+	padding-top: 50px;
+	transition: .3s;
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	height: 100%;
+	.connect-block{
+		margin: 0;
+		background-color: transparent;
+		&__info{
+			display: none;
+		}
+		.btn{
+			display: none;
+		}
+	}
+	&-open{
+		.sidebar{
+			
+			width: 285px;
+			position: fixed;
+			z-index: 2;
+			&-inside{
+				padding: 30px 30px 0 30px;
+			}
+			.connect-block{
+				display: flex;
+				background-color: #fff;
+				margin: 40px 15px 40px 0;
+				&__info{
+					display: block;
+				}
+				.btn{
+					display: flex;
+				}
+			}
+			ul{
+				li{
+					&.active{
+						&.sidebar-dropdown{
+							& > a{
+								color: #000;
+								&::before{
+									display: none;
+								}
+							}
+							& > ul{
+								padding-top: 20px;
+								li{
+									&.active{
+										a{
+											color: #fff;
+											background: $accent;
+											.icon{
+												color: #fff;
+											}
+											&::before{
+												display: none;
+											}
+										}
+									}
+								}
+								a{
+									padding-left: 20px;
+									color: #000;
+									.icon{
+										font-size: 5px;
+									}
+								}
+							}
+						}
+						a{
+							color: #fff;
+							.icon{
+								color: $accent;
+								
+							}
+							&::before{
+								width: calc(100% - 30px);
+								opacity: 1;
+								z-index: -1;
+							}
+						}
+					}
+					&.sidebar-dropdown{
+						.submenu{
+							li{
+								&.active{
+									a{
+										background: $accent;
+										.icon{
+											color: #fff;
+										}
+									}
+								}
+							}
+							a{
+								padding-left: 20px;
+								&:hover{
+									background: $accent;
+									color: #fff;
+									.icon{
+										color: #fff;
+									}
+								}
+								.icon{
+									vertical-align: middle;
+								}
+								&::before{
+									display: none;
+								}
+							}
+						}
+					}
+				}
+				a{
+					padding: 5px 15px 5px 40px;
+					.counter{
+						width: 22px;
+						height: 22px;
+						right: 10px;
+						top: 50%;
+						font-size: 10px;
+						line-height: 22px;
+						transform: translateY(-50%);
+					}
+					.icon{
+						left: 0;
+						transform: translateY(-50%);
+						&.icon-angle-right{
+							font-size: 5px;
+						}
+					}
+					.sidebar-item{
+						text-indent: 0;
+					}
+				}
+			}
+		}
+	}
+	&-inside{
+		position: relative;
+		padding: 30px 0 0;
+		/*max-height: 100%;*/
+		/*overflow-y: auto;*/
+		.mCustomScrollBox{
+			max-height: 100% !important;
+			height: auto !important;
+			
+		}
+	}
+	ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		li{
+			margin-bottom: 30px;
+			&.sidebar-dropdown{
+				&.show{
+					ul{
+						display: block;
+					}
+				}
+				ul{
+					padding-left: 40px;
+					display: none;
+					li{
+						margin-bottom: 10px;
+					}
+					a{
+						font-size: 12px;
+						text-transform: none;
+					}
+				}
+			}
+			&.active{
+				& > a{
+					&::before{
+						content: '';
+						position: absolute;
+						background: $accentLight;
+						top: 0;
+						right: 0;
+						width: 10px;
+						height: 100%;
+						z-index: 0;
+						transition: .3s;
+						opacity: 0;
+					}	
+					.icon{
+						color: $accent;
+					}
+				}
+			}
+		}
+		a{
+			font-weight: 600;
+			color: #000;
+			text-transform: uppercase;
+			text-decoration: none !important;
+			position: relative;
+			padding: 5px;
+			display: block;
+			white-space: nowrap;
+			min-height: 28px;
+			&:hover{
+				color: $accentLight;
+				.icon{
+					color: $accent;
+				}
+			}
+			.counter{
+				width: 16px;
+				height: 16px;
+				font-size: 7px;
+				line-height: 16px;
+				right: 15px;
+				top: 10px;
+			}
+			.icon{
+				color: $accentLight;
+				font-size: 22px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				width: 30px;
+				display: -webkit-flex;
+				display: -moz-flex;
+				display: -ms-flex;
+				display: -o-flex;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				transition: .3s;
+			}
+			.sidebar-item{
+				text-indent: -9999px;
+				display: block;
+				overflow: hidden;
+				transition: .1s;
+				position: relative;
+				z-index: 1;
+			}
+		}
+	}
+}

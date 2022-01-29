@@ -1,0 +1,231 @@
+.modal{
+	&-center{
+		position: relative;
+		background: $accentTable;
+		width: auto;
+		max-width: 485px;
+		margin: 20px auto;
+		padding: 20px;
+		.mfp-close{
+			font-size: 22px;
+		}
+		&#modal-info{
+			padding: 0;
+			max-width: 325px;
+			.mfp-close{
+				background: #fff;
+				opacity: 1;
+				right: -15px;
+				top: -15px;
+			}
+			.table{
+				&-header{
+					justify-content: space-around;
+					padding: 12px 20px;
+					&__col{
+						width: auto;
+						line-height: 1;
+					}
+				}
+				&-content{
+					&__item{
+						.table-header{
+							color: $textcolor;
+						}
+					}
+				}
+			}
+		}
+		&#modal-message{
+			max-width: 690px;
+			.mobileNotScroll,
+			.mobileScroll{
+				max-height: 385px;
+			}
+		}
+		&#modal-files{
+			max-width: 390px;
+			.mobileNotScroll,
+			.mobileScroll{
+				max-height: 295px;
+			}
+		}
+		&#modal-add-message{
+			max-width: 690px;
+			textarea{
+				height: 227px;
+			}
+		}
+		&#modal-add-member{
+			.member-new{
+				display: block;
+				.form-group{
+					max-width: none;
+				}
+			}
+		}
+		&#modal-add-event{
+			max-width: 915px;
+		}
+		.table-header__col{
+			text-align: center;
+		}
+		.table{
+			&:not(.table-members){
+				.table-content__item {
+					background: #fff;
+					border-bottom-color: $accentTable;
+				}
+				.table-header__title{
+					padding-left: 18px;
+					text-align: left;
+				}
+			}
+			&-members{
+				.table{
+
+					&-header{
+						padding: 12px 50px 12px 20px;
+						&__surname{
+							max-width: 170px;
+							flex: 1 0 20%;
+							padding-left: 10px;
+							align-items: flex-start;
+							text-align: left;
+						}
+						&__status-person{
+							max-width: 280px;
+							margin-right: auto;
+							flex: 1 0 45%;
+							align-items: flex-start;
+						}
+						&__action{
+							width: 100px;
+							margin-left: -20px;
+						}
+					}
+					&-content{
+						&.mobileNotScroll,
+						.mobileScroll{
+							height: 400px;
+						}
+						&__your{
+							background: #eff9e4;
+							.event-block{
+								.form-group{
+									textarea{
+										height: 85px;
+									}
+									label{
+										color: #9db97e;
+									}
+								}
+							}
+						}
+						&__opposition{
+							background: #ffeeeb;
+							.event-block{
+								.form-group{
+									textarea{
+										height: 85px;
+									}
+									label{
+										color: #c4968e;
+									}
+								}
+							}
+						}
+						&__item{
+							.table-header{
+								color: $textcolor;
+								padding: 12px 20px;
+								&__action{
+									margin-right: 0;
+								}
+							}
+							.event-block{
+								padding: 0 20px;
+								position: relative;
+								.mobileNotScroll,
+								.mobileScroll{
+									height: 110px;
+									margin-bottom: 12px;
+								}
+								&::before{
+									content: '';
+									position: absolute;
+									top: 0;
+									left: 20px;
+									right: 20px;
+									height: 1px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	&-header{
+		margin-bottom: 30px;
+		.modal-heading{
+			margin-bottom: 0;
+		}
+	}
+	&-heading{
+		display: flex;
+		align-items: center;
+		.btn-toggle{
+			margin-right: 20px;
+			flex: 1 0 37px;
+			max-width: 23px;
+		}
+		@extend .serviceBlock-heading;
+	}
+	&-footer{
+		padding-top: 20px;
+	}
+
+}
+
+.member-block{
+	display: flex;
+	margin-bottom: 30px;
+	&__img{
+		max-width: 178px;
+		flex: 1 0 166px;
+		background: #fff;
+		padding: 13px;
+		margin-right: 18px;
+		border: 1px solid #dadada;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.icon{
+			font-size: 152px;
+			color: $accentLight;
+		}
+	}
+	&__info{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	&__name{
+		font-weight: bold;
+		color: #000;
+	}
+	&__item{
+		.modal-heading{
+			margin-bottom: 10px;
+		}
+		p{
+			margin-bottom: 0;
+		}
+	}
+}
+.mfp-bg{
+	position: fixed !important;
+}

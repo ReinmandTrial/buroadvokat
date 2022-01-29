@@ -1,0 +1,64 @@
+.header-page{
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 30px;
+	&__title{
+		color: #000;
+		flex: 1 0;
+		h1{
+			text-transform: uppercase;
+			line-height: 1;
+			margin-bottom: 5px;
+			font-weight: 600;
+		}
+		p{
+			font-size: 12px;
+			font-weight: 600;
+			text-transform: capitalize;
+			color: #b3b3b3;
+			position: relative;
+			text-align: left;
+			margin: 0;
+			border-top: 1px solid $accent;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+	&__filter{
+		display: flex;
+		align-items: center;
+		margin: 0 -50px;
+		&-date,
+		&-action{
+			padding: 0 50px;
+			margin: 0 -10px;
+			display: flex;
+		}
+		&-date{
+			color: $accent;
+			font-weight: 600;
+			
+			> .d-md-flex{
+				padding: 0 10px;
+			}
+		}
+		.radio-group{
+			position: relative;
+			margin: 0 10px;
+			input{
+				visibility: hidden;
+				opacity: 0;
+				position: absolute;
+				&:checked~label{
+					@extend .btn-action.active;
+				}
+			}
+			label{
+				cursor: pointer;
+				margin-bottom: 0;
+				position: relative;
+				z-index: 1;
+			}
+		}
+	}
+}

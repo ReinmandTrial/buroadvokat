@@ -1,0 +1,270 @@
+.btn{
+	border: none;
+	outline: none !important;
+	background-color: transparent;
+	white-space: nowrap;
+	padding: 0 25px;
+	height: 35px;
+	line-height: 35px;
+	transition: .3s;
+	position: relative;
+
+	&-edit{
+		padding: 0;
+		margin-left: 10px;
+		&:hover{
+			color: $accent;
+		}
+	}
+	&-action-link{
+		width: 23px;
+		height: 22px;
+		font-size: 10px;
+		padding: 0;
+		line-height: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: $accent;
+		box-shadow: 0px 4px 14.72px 1.28px rgba(167, 74, 222, 0.58);
+		.icon{
+			color: #fff !important;
+		}
+		&:hover{
+			background: $accentDarken;
+		}
+	}
+	&-menu{
+		display: flex;
+		align-items: center;
+		position: relative;
+		width: 26px;
+		height: 26px;
+		padding: 0;
+		margin: 12px;
+		cursor: pointer;
+		z-index: 1;
+		span,
+		span::before,
+		span::after{
+			display: block;
+		  position: absolute;
+
+		  width: 100%;
+		  height: 2px;
+
+		  background-color: #fff;
+
+		  transition-duration: .25s;
+		}
+		span{
+			&::before{
+				content: '';
+				top: -8px;
+			}
+			&::after{
+				content: '';
+				top: 8px;
+			}
+		}
+		&.active{
+			span{
+				transform: rotate(45deg);
+				&::before{
+					top: 0;
+				  transform: rotate(0);
+				}
+				&::after{
+					top: 0;
+				  transform: rotate(90deg);
+				}
+			}
+		}
+	}
+	&-view{
+		background: $accentLight;
+		width: 37px;
+		height: 34px;
+		display: none;
+		padding: 0;
+		.icon{
+			color: #fff !important;
+		}
+	}
+	&-delete{
+		color: $accent;
+		margin-right: 15px;
+		height: 28px;
+		line-height: unset;
+		padding: 0;
+		&:hover{
+			color: $accentDarken !important;
+		}
+	}
+	&-connect{
+		background: #fff;
+		width: 43px;
+		height: 43px;
+		line-height: unset;
+		position: absolute;
+		right: -10px;
+		bottom: -10px;
+		border-radius: 100%;
+		box-shadow: 0px 4px 18px 0px rgba(28, 68, 134, 0.4);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		color: #45adff;
+		font-size: 19px;
+		&:hover{
+			 background: $accent;
+			 color: #fff;
+		}
+	}
+	&-action{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 37px;
+		height: 34px;
+		padding: 0;
+		line-height: unset;
+		color: $accentLight;
+		box-shadow: 0px 5px 14px 0px rgba(190, 105, 239, 0.4);
+	  &:hover{
+	  	background: $accentLight;
+	  	color: #fff;
+	  }
+	  .icon{
+	  	font-size: 21px;
+	  }
+	  &.active{
+	  	background: #e1e1e1;
+	  	color: #8b8b8b;
+	  	box-shadow: none;
+	  }
+	}
+	&-toggle{
+		width: 23px;
+		height: 23px;
+		padding: 0;
+		line-height: unset;
+		background: #fff;
+		font-size: 7px;
+		box-shadow: 0px 5px 14px 0px rgba(190, 105, 239, 0.4);
+		i.icon{
+			color: #707070;
+			display: block;
+		}
+		&.active{
+			.icon{
+				transform: rotateX(180deg);
+			}
+		}
+		&:hover{
+			cursor: pointer;
+			background: $accent;
+			i.icon{
+				color: #fff !important;
+			}
+		}
+	}
+	&-primary{
+		background: $accent;
+		color: #fff;
+		text-decoration: none !important;
+		box-shadow: 0px 5px 21px 0px rgba(190, 105, 239, 0.6);
+		&:hover{
+			background: $accentDarken;
+		}
+	}
+	&-callback{
+		width: 31px;
+		height: 29px;
+		border-radius: 100%;
+		padding: 0;
+		line-height: 30px;
+		background: $accentLight;
+		text-decoration: none !important;
+		box-shadow: 0px 2px 8px 0px rgba(127, 37, 180, 0.44);
+		&:hover{
+			background: $accent;
+		}
+		.icon{
+			color: #fff !important;
+		}
+	}
+	&-default{
+		background: #e1e1e1;
+		color: #848484;
+		text-decoration: none !important;	
+		&:hover{
+			background: $accentLight;
+			color: #fff;
+		}
+		
+		
+	}
+	&-secondary{
+		color: $textcolor;
+		background: #fff;
+		box-shadow: 0px 5px 21px 0px rgba(190, 105, 239, 0.3);
+		&:hover{
+			background: $accent;
+			color: #fff;
+		}
+		&.btn-toggle{
+			width: auto;
+			height: auto;
+			font-size: 14px;
+			padding: 0 15px 0 25px;
+			text-decoration: none !important;	
+			&.btn-refuse{
+				&.active{
+					pointer-events: none;
+					@extend .btn-default;
+					box-shadow: none;
+				}
+			}
+			.icon-angle-down{
+				font-size: 5px;
+				display: inline-block;
+				margin-left: 5px;
+			}
+			&:hover{
+				background: $accentLight;
+				color: #fff;
+			}
+		}
+	}
+	&-read-more{
+		width: 100%;
+		padding: 0;
+		.hide{
+			display: none;
+		}
+		&.active{
+			.hide{
+				display: inline;
+			}
+			.show{
+				display: none;
+			}
+		}
+	}
+	&-sm{
+		padding: 0 15px;
+	}
+	&-open{
+		&.active{
+			box-shadow: unset;
+			background: #e1e1e1;
+			&:hover{
+				color: $textcolor;
+			}
+		}
+	}
+
+}
+ 

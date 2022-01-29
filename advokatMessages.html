@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Template</title>
+	<meta name="description" content="HTML template">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.ico">
+	<meta property="og:image" content="images/dest/favicon.ico">
+	
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<!-- CUSTOM HTML -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header d-flex">
+			<div class="header-sidebar sidebar-toggle">
+				<div class="header-sidebar__logo logo">
+					<div class="logo-box">
+						<span class="logo-box__img">
+							<img src="images/dest/logo.png" alt="">
+						</span>
+						<span class="logo-box__text">
+							<span class="logo-box__title">Традиции <b>профессионалов</b></span>
+							<span class="logo-box__slogan">мы сделали настоящую <br> адвокатуру доступной</span>
+						</span>
+					</div>
+					<span class="icon icon-angle-right"></span>
+				</div>
+			</div>
+			<div class="header-main">
+
+				<div class="header-user dropdown">
+					<buttton data-toggle="dropdown" class="dropdown-toggle">
+						<span class="header-user__title">
+							<span class="header-user__title-img">
+								<i class="icon icon-user"></i>
+							</span>
+							<span class="header-user__title-name">
+								Касіянчук П. І.
+							</span>
+						</span>
+						<i class="icon icon-angle-down"></i>
+					</buttton>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Уведомления<span class="counter">22</span></a></li>
+							<li><a href="#">Личный кабинет</a></li>
+							<li><a href="#">Выход</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header-lang dropdown">
+					<button data-toggle="dropdown" class="dropdown-toggle">Рус <i class="icon icon-angle-down"></i></button>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Рус</a></li>
+							<li><a href="#">Укр</a></li>
+							<li><a href="#">Eng</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="header-menu">
+					<ul class="menu">
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Головна</a></li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="icon icon-angle-right d-lg-none"></i> Послуги</a>
+							<div class="dropdown-menu">
+								<ul>
+									<li>
+										<a href="#"><i class="icon icon-services-1"></i>Голосова консультація</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-2"></i>Письмове питаня</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-3"></i>Створити документ</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-4"></i>Перевірити документ</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Гарантії</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> ПРАВИЛА САЙТу</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Допомога</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> КОНТАКТи</a></li>
+						<li class="d-lg-none">
+							<a href="#">
+								<i class="icon icon-settings"></i>
+								<span>Налаштування</span>
+							</a>
+						</li>
+						<li class="d-lg-none">
+							<a href="#">
+								<i class="icon icon-help"></i>
+								<span>Допомога</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				
+
+				<div class="header-menu-right d-none d-lg-block">
+					<ul class="menu">
+						<li>
+							<a href="#">
+								<i class="icon icon-settings"></i>
+								<span>Налаштування</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-help"></i>
+								<span>Допомога</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<button class="btn btn-menu d-lg-none" id="mobileMenu">
+					<span></span>
+				</button>
+
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- content -->
+		<div class="content d-flex">
+			<!-- sidebar -->
+			<aside class="sidebar">
+				<div class="sidebar-inside custom-scroll">
+					<ul>
+						<li class="active ">
+							<a href="#">
+								<i class="icon icon-bell"></i>
+								<span class="sidebar-item">Повідомлення</span>
+								<span class="counter">22</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-chart"></i>
+								<span class="sidebar-item">Розпорядок</span>
+							</a>
+						</li>
+						<li class="sidebar-dropdown">
+							<a href="#">
+								<i class="icon icon-bag"></i>
+								<span class="sidebar-item">Послуги</span>
+							</a>
+							<ul class="submenu">
+								<li class="active">
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Заявки в роботі
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Відхилені заявки
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-cash"></i>
+								<span class="sidebar-item">Фінанси</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-folder"></i>
+								<span class="sidebar-item">Архів Справ</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-user"></i>
+								<span class="sidebar-item">Особисті дані</span>
+							</a>
+						</li>
+					</ul>
+					<div class="connect-block client">
+						<div class="connect-block__img">
+							<img src="images/dest/advokat-1.jpg" alt="">
+						</div>
+						<div class="connect-block__info">
+							<h2>Васильків С. Г.</h2>
+							<p>клієнт</p>
+						</div>
+						<button class="btn btn-connect">
+							<i class="icon icon-phone"></i>
+						</button>
+					</div>
+					<div class="connect-block moderator">
+						<div class="connect-block__img">
+							<img src="images/dest/advokat-2.jpg" alt="">
+						</div>
+						<div class="connect-block__info">
+							<h2>Федишин Р. В.</h2>
+							<p>модератор</p>
+						</div>
+						<a href="#" class="btn btn-connect">
+							<i class="icon icon-phone"></i>
+						</a>
+					</div>
+				</div>
+			</aside>
+			<!-- sidebar end -->
+			<!-- main -->
+			<main class="main">
+				<div class="container-fluid">
+					<!-- breadcrumbs -->
+					<ul class="breadcrumbs">
+						<li><a href="#">Адвокат</a></li>
+						<li><span>Повідомлення</span></li>
+					</ul>
+					<!-- breadcrumbs end -->
+					<!-- header-page -->
+					<div class="header-page">
+						<div class="header-page__title">
+							<h1>Повідомлення</h1>
+							
+						</div>
+						<div class="header-page__filter">
+							<div class="header-page__filter-date">
+								<div class="d-md-flex align-items-center">
+									Період з:
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+										</button>
+									</div>
+								</div>
+								<div class="d-md-flex align-items-center">
+									по:
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="header-page__filter-action">
+								<div class="radio-group">
+									<input id="services-1" type="radio" name="services">
+									<label for="services-1" class="btn btn-action"><i class="icon icon-services-1"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-2" type="radio" name="services">
+									<label for="services-2" class="btn btn-action"><i class="icon icon-services-2"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-3" type="radio" name="services">
+									<label for="services-3" class="btn btn-action"><i class="icon icon-services-3"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-4" type="radio" name="services">
+									<label for="services-4" class="btn btn-action"><i class="icon icon-services-4"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-0" type="radio" name="services" checked>
+									<label for="services-0" class="btn btn-action">Всі</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- header-page end -->
+					<!-- table -->
+					<div class="table table-messages">
+						<!-- table-header -->
+						<div class="table-header">
+							<div class="table-header__col table-header__action">
+								<span>
+									Згорн. розвер.
+								</span>
+							</div>
+							<div class="table-header__col table-header__number">
+								<span>
+									№ <span class="hidden">послуги</span>
+								</span>
+							</div>
+							<div class="table-header__col table-header__service">
+								<span>
+									Послуга
+								</span>
+							</div>
+							<div class="table-header__col table-header__title d-none d-md-block">
+								<span>
+									Фабула
+								</span>
+							</div>
+							<div class="table-header__col table-header__date">
+								<span class="d-none d-xl-block">
+									Дата і час вхідного повідомлення
+								</span>
+								<span class="d-xl-none">
+									Дата і час вх. повідом.
+								</span>
+							</div>
+							<div class="table-header__col table-header__status">
+								<span class="d-none d-xl-block">
+									Повідомлення переглянуто
+								</span>
+								<span class="d-xl-none">
+									Повідом. <br> перег.
+								</span>
+							</div>
+							
+						</div>
+						<!-- table-header end -->
+						<div class="table-content">
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block new">
+								<!-- table-header -->
+								<div class="table-header">
+
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00010
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+									
+								</div>
+								<!-- table-header end -->
+								<!-- table-body -->
+								<div class="table-body serviceBlock toggle-item">
+									
+									<!-- serviceBlock-theme -->
+									<div class="serviceBlock-theme">
+
+										<div class="serviceBlock-theme__title">
+											<div class="serviceBlock-heading">
+												Тема послуги:
+											</div>
+											<p>Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div>
+										
+										<div class="serviceBlock-theme__date">
+											<div class="serviceBlock-heading">
+												Здача послуги до:
+											</div>
+											<p>30.02.2019 16:00</p>
+										</div>
+										<div class="serviceBlock-theme__date">
+											<div class="serviceBlock-heading">
+												На виконання:
+											</div>
+											<p>1 д. 4 год. 30 хв.</p>
+										</div>
+										<div class="serviceBlock-theme__date d-flex d-lg-block">
+											<div class="serviceBlock-heading">
+												Незанятий робочий час:&nbsp;
+											</div>
+											<p> 1 д. 4 год. 30 хв.</p>
+										</div>
+									</div>
+									<!-- serviceBlock-theme end -->
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info">
+										<div class="serviceBlock-info__body">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading">
+													Опис послуги клієнтом:
+												</div>
+												<div class="serviceBlock-info__body-inside">
+													<div class="mobileNotScroll">
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim iest laborum.</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim iest laborum.</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim iest laborum.</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim iest laborum.</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim iest laborum.</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim iest laborum.</p>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim iest laborum.</p>
+													</div>
+													<button class="btn btn-secondary btn-read-more d-lg-none">
+														<span class="show">Читати все</span> <span class="hide">Звернути текст</span>
+													</button>
+												</div>
+												
+											</div>
+											<div class="serviceBlock-info__files">
+												<div class="serviceBlock-heading">
+													Матеріали наданіі клієнтом:
+												</div>
+												<div class="serviceBlock-info__body-inside">
+													<div class="mobileNotScroll">
+														<ul class="file-box">
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение о ходотайстве к в верховнasfasfas
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Копия свидетельства рееестрации земasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Заявление про нарушение человечесadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Скан документа “Свыдетельство о влеdsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение о ходотайстве к в верховнasfasfas
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета по распределению потоков денasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Копия свидетельства рееестрации земasadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Заявление про нарушение человечесadsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Скан документа “Свыдетельство о влеdsf
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Счета
+																</span>
+															</li>
+															<li class="file-box__item">
+																<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+																<span class="file-box__item-text">
+																	Прошение
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="btn-group">
+														<button class="btn btn-secondary btn-read-more d-lg-none">
+															<span class="show">Весь </span> <span class="hide">Звернути </span>список
+														</button>
+														<button class="btn btn-primary btn-sm">
+															Скачати всі файли
+														</button>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info end -->
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info">
+										<div class="serviceBlock-info__body">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-info__body-inside toggle-block">
+													<div class="btn-group">
+														<button class="btn btn-secondary btn-toggle btn-refuse">
+															Відмовитись <i class="icon icon-angle-down"></i>
+														</button>
+														<button class="btn btn-primary">
+															Прийняти
+														</button>
+													</div>
+													<div class="text-report toggle-item">
+														<div class="serviceBlock-heading">
+															Якщо не згодні з поставленою задачою опишіть відмову
+														</div>
+														<div class="form-group">
+															<label>Текст звіту по наданій послузі:</label>
+															<textarea name="mess"></textarea>
+															<a href="#" class="handbook-link"><em>Добавити з довідника</em></a>
+														</div>
+														<div class="form-group">
+															<label>Текст альтернативного рішення:</label>
+															<textarea name="mess"></textarea>
+														</div>
+														<div class="btn-group">
+															<button class="btn btn-secondary btnClose-report">Закрити</button>
+															<button class="btn btn-primary">Підтвердити відмову</button>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+											
+										</div>
+									</div>
+									<!-- serviceBlock-info end -->
+									
+								</div>
+								<!-- table-body end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block new">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00009
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00008
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00007
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00006
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00005
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00004
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00003
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00002
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00001
+										</span>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__status" data-title="Стадія виконання">
+										<i class="icon icon-message-on"></i><i class="icon icon-message-off"></i>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+						</div>
+						<div class="table-footer">
+							<div class="amout-messages">
+								<span class="amout-messages--text">
+									Показ.
+								</span>
+								<select class="custom-select">
+									<option value="10">10</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+							</div>
+							<div>
+								<div class="pagination">
+									<ul>
+										<li class="page-prev"><a href="" class="disabled"><span class="icon icon-angle-left"></span></a></li>
+										<li><span>1</span></li>
+										<li><a href="">2</a></li>
+										<li><a href="">3</a></li>
+										<li><a href="">4</a></li>
+										<li class="page-next"><a href=""><span class="icon icon-angle-right"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- table end -->
+				</div>
+			</main>
+			<!-- main end -->
+		</div>
+		<!-- content end -->
+	</div>
+
+	<div class="messenger">
+		<div class="messenger-group">
+			<div class="messenger-group__box">
+				<div class="messenger-group__box-head">
+					<div class="messenger-group__box-title">Диалоги</div>
+				</div>
+				<div class="messenger-group__box-body">
+					<div class="messenger-group__box-list">
+						<ul>
+							<li>
+								<span class="icon icon-checklist"></span>
+								<div class="messenger-group__box-list-title">Тех. поддержка</div>
+								<div class="messenger-group__box-list-date">12.10.2018   19:10</div>
+								<div class="messenger-group__box-list-count">1</div>
+							</li>
+							<li>
+								<span class="icon icon-webcam"></span>
+								<div class="messenger-group__box-list-title">Видеозвонок адвокату</div>
+								<div class="messenger-group__box-list-date">4 часа назад</div>
+								<div class="messenger-group__box-list-count">13</div>
+							</li>
+							<li>
+								<span class="icon icon-phone"></span>
+								<div class="messenger-group__box-list-title">Звонок адвокату</div>
+								<div class="messenger-group__box-list-date">4 часа назад</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="messenger-button js-messenger">
+			<span class="icon icon-phone"></span>
+			<span class="icon icon-close"></span>
+			<div class="counter">6</div>
+		</div>
+	</div>
+	
+
+	<script src="js/libs.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

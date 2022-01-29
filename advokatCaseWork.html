@@ -1,0 +1,5263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Template</title>
+	<meta name="description" content="HTML template">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.ico">
+	<meta property="og:image" content="images/dest/favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<!-- CUSTOM HTML -->
+	<div class="wrapper">
+		<!-- header -->
+
+		<header class="header d-flex">
+			<div class="header-sidebar sidebar-toggle">
+				<div class="header-sidebar__logo logo">
+					<div class="logo-box">
+						<span class="logo-box__img">
+							<img src="images/dest/logo.png" alt="">
+							<span class="counter">22</span>
+						</span>
+						<span class="logo-box__text">
+							<span class="logo-box__title">Традиции <b>профессионалов</b></span>
+							<span class="logo-box__slogan">мы сделали настоящую <br> адвокатуру доступной</span>
+						</span>
+					</div>
+					<span class="icon icon-angle-right"></span>
+				</div>
+			</div>
+			<div class="header-main">
+
+				<div class="header-user dropdown">
+					<buttton data-toggle="dropdown" class="dropdown-toggle">
+						<span class="header-user__title">
+							<span class="header-user__title-img">
+								<i class="icon icon-user"></i>
+							</span>
+							<span class="header-user__title-name">
+								Касіянчук П. І.
+							</span>
+						</span>
+						<i class="icon icon-angle-down"></i>
+					</buttton>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Уведомления<span class="counter">22</span></a></li>
+							<li><a href="#">Личный кабинет</a></li>
+							<li><a href="#">Выход</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header-lang dropdown">
+					<button data-toggle="dropdown" class="dropdown-toggle">Рус <i class="icon icon-angle-down"></i></button>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Рус</a></li>
+							<li><a href="#">Укр</a></li>
+							<li><a href="#">Eng</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header-menu">
+					<ul class="menu">
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Головна</a></li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle"><i
+									class="icon icon-angle-right d-lg-none"></i> Послуги</a>
+							<div class="dropdown-menu">
+								<ul>
+									<li>
+										<a href="#"><i class="icon icon-services-1"></i>Голосова консультація</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-2"></i>Письмове питаня</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-3"></i>Створити документ</a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-services-4"></i>Перевірити документ</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Гарантії</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> ПРАВИЛА САЙТу</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> Допомога</a></li>
+						<li><a href="#"><i class="icon icon-angle-right d-lg-none"></i> КОНТАКТи</a></li>
+						<li class="d-lg-none">
+							<a href="#">
+								<i class="icon icon-settings"></i>
+								<span>Налаштування</span>
+							</a>
+						</li>
+						<li class="d-lg-none">
+							<a href="#">
+								<i class="icon icon-help"></i>
+								<span>Допомога</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+
+
+				<div class="header-menu-right d-none d-lg-block">
+					<ul class="menu">
+						<li>
+							<a href="#">
+								<i class="icon icon-settings"></i>
+								<span>Налаштування</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-help"></i>
+								<span>Допомога</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<button class="btn btn-menu d-lg-none" id="mobileMenu">
+					<span></span>
+				</button>
+
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- content -->
+		<div class="content d-flex">
+			<!-- sidebar -->
+			<aside class="sidebar">
+				<div class="sidebar-inside custom-scroll">
+					<ul>
+						<li class="active ">
+							<a href="#">
+								<i class="icon icon-bell"></i>
+								<span class="sidebar-item">Повідомлення</span>
+								<span class="counter">22</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-chart"></i>
+								<span class="sidebar-item">Графік роботи</span>
+							</a>
+						</li>
+						<li class="sidebar-dropdown">
+							<a href="#">
+								<i class="icon icon-bag"></i>
+								<span class="sidebar-item">Послуги</span>
+							</a>
+							<ul class="submenu">
+								<li class="active">
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Заявки в роботі
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Відхилені заявки
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-cash"></i>
+								<span class="sidebar-item">Фінанси</span>
+							</a>
+						</li>
+						<li class="sidebar-dropdown">
+							<a href="#">
+								<i class="icon icon-bag"></i>
+								<span class="sidebar-item">Виконані роботи</span>
+							</a>
+							<ul class="submenu">
+								<li class="active">
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Справи в роботі
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon icon-angle-right"></i>
+										Призупинені справи
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-folder"></i>
+								<span class="sidebar-item">Архів Справ</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="icon icon-user"></i>
+								<span class="sidebar-item">Особисті дані</span>
+							</a>
+						</li>
+					</ul>
+					<div class="connect-block client">
+						<div class="connect-block__img">
+							<img src="images/dest/advokat-1.jpg" alt="">
+						</div>
+						<div class="connect-block__info">
+							<h2>Васильків С. Г.</h2>
+							<p>клієнт</p>
+						</div>
+						<button class="btn btn-connect">
+							<i class="icon icon-phone"></i>
+						</button>
+					</div>
+					<div class="connect-block moderator">
+						<div class="connect-block__img">
+							<img src="images/dest/advokat-2.jpg" alt="">
+						</div>
+						<div class="connect-block__info">
+							<h2>Федишин Р. В.</h2>
+							<p>модератор</p>
+						</div>
+						<a href="#" class="btn btn-connect">
+							<i class="icon icon-phone"></i>
+						</a>
+					</div>
+				</div>
+			</aside>
+			<!-- sidebar end -->
+			<!-- main -->
+			<main class="main">
+				<div class="container-fluid">
+					<!-- breadcrumbs -->
+					<ul class="breadcrumbs">
+						<li><a href="#">Адвокат</a></li>
+						<li><a href="#">Послуги</a></li>
+						<li><span>Справи в роботі</span></li>
+					</ul>
+					<!-- breadcrumbs end -->
+					<!-- header-page -->
+					<div class="header-page">
+						<div class="header-page__title">
+							<h1>Справи в роботі</h1>
+							<p>Виконані роботи</p>
+						</div>
+						<div class="header-page__filter">
+							<div class="header-page__filter-date">
+								<div class="d-md-flex align-items-center">
+									Період з:
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+											<i class="icon icon-close"></i>
+										</button>
+									</div>
+								</div>
+								<div class="d-md-flex align-items-center">
+									по:
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+											<i class="icon icon-close"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="header-page__filter-action">
+								<div class="radio-group">
+									<input id="services-1" type="radio" name="services">
+									<label for="services-1" class="btn btn-action"><i class="icon icon-services-1"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-2" type="radio" name="services">
+									<label for="services-2" class="btn btn-action"><i class="icon icon-services-2"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-3" type="radio" name="services">
+									<label for="services-3" class="btn btn-action"><i class="icon icon-services-3"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-4" type="radio" name="services">
+									<label for="services-4" class="btn btn-action"><i class="icon icon-services-4"></i></label>
+								</div>
+								<div class="radio-group">
+									<input id="services-0" type="radio" name="services" checked>
+									<label for="services-0" class="btn btn-action">Всі</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- header-page end -->
+					<!-- table -->
+					<div class="table table-case-work">
+						<!-- table-header -->
+						<div class="table-header">
+							<div class="table-header__col table-header__action">
+								<span>
+									Згорн. розвер.
+								</span>
+							</div>
+							<div class="table-header__col table-header__service">
+								<span>
+									Послуга
+								</span>
+							</div>
+							<div class="table-header__col table-header__title d-none d-md-block">
+								<span>
+									Тема послуги
+								</span>
+							</div>
+							<div class="table-header__col table-header__date">
+								<span>
+									Заявка <br> подана
+								</span>
+							</div>
+							<div class="table-header__col table-header__date">
+								<span class="d-none d-md-block">
+									Заявку виконати на
+								</span>
+								<span class="d-md-none">
+									Заявку <br> викон. на
+								</span>
+							</div>
+							<div class="table-header__col table-header__number">
+								<span>
+									№ <span class="hidden">послуги</span>
+								</span>
+							</div>
+							<div class="table-header__col table-header__status d-none d-md-block">
+								<span>
+									Стадія виконання
+								</span>
+							</div>
+						</div>
+						<!-- table-header end -->
+						<div class="table-content">
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block new">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00010
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-success">
+											Виконано
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+								<!-- table-body -->
+								<div class="table-body serviceBlock toggle-item">
+
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info-case toggle-block">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading">
+													Всі учасники справи
+
+													<div class="hidden-btn">
+														<div class="btn-group no-delete">
+															<button class="btn btn-secondary btn-sm btn-delete-item">Видалити
+																учасника</button>
+															<button class="btn btn-primary btn-sm open-modal-link"
+																data-mfp-src="#modal-add-member">Добавити учасника</button>
+														</div>
+														<div class="btn-group delete-member">
+															<button class="btn btn-secondary btn-sm btn-delete-item">Відмінити
+																видален.</button>
+															<button class="btn btn-primary btn-sm open-modal-link"
+																data-mfp-src="#modal-add-member">Підтвердити видал.</button>
+														</div>
+													</div>
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="table table-members">
+														<div class="table-header">
+															<div class="table-header__col table-header__interest d-none d-md-block">
+																<span class="d-none d-xl-block">
+																	Чиї інтереси захищає
+																</span>
+																<span class="d-xl-none">
+																	Інтереси
+																</span>
+															</div>
+															<div class="table-header__col table-header__status-person">
+																<span>
+																	Статус особи <br class="d-md-none"> у спарві
+																</span>
+															</div>
+															<div class="table-header__col table-header__surname d-none d-md-block">
+																<span>
+																	Прізвище
+																</span>
+															</div>
+															<div class="table-header__col table-header__contact">
+																<span class="d-none d-xl-block">
+																	Звязатся <br> з учасником справи
+																</span>
+																<span class="d-xl-none">
+																	Звяз. <br>
+																	учас. <br>
+																	спр.
+																</span>
+															</div>
+															<div class="table-header__col table-header__date">
+																<span class="d-none d-xl-block">
+																	Учасники <br> увійшли у справу
+																</span>
+																<span class="d-xl-none">
+																	Учас. <br>
+																	увійш. <br>
+																	у спр.
+																</span>
+															</div>
+															<div class="table-header__col table-header__person-info">
+																<span class="d-none d-md-block">
+																	Інформація<br>про учасника
+																</span>
+																<span class="d-md-none">
+																	<span class="no-delete">
+																		Інф. <br>
+																		про <br>
+																		учас.
+																	</span>
+																	<span class="delete-member">
+																		Видалити
+																	</span>
+																</span>
+															</div>
+															<div class="table-header__col delete-member">
+																<span class="delete-member">
+																	Видал..
+																</span>
+															</div>
+														</div>
+														<div class="table-content">
+
+															<div class="table-content__item table-content__your">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span><b>Ваші</b></span>
+																	</div>
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (ведучий)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			<b>Фамілія адвоката</b>
+																			<small>(що дивиться зараз кабінет)</small>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			-
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<span>
+																			-
+																		</span>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+															</div>
+
+															<div class="table-content__item table-content__your">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Ваші</span>
+																	</div>
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Петров Валентин Іванович
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+															</div>
+
+															<div class="table-content__item table-content__your">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Ваші</span>
+																	</div>
+
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Семенов Васил Петрович
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+															</div>
+
+															<div class="table-content__item table-content__your">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Ваші</span>
+																	</div>
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Петров Валентин Іванович
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+															</div>
+
+															<div class="table-content__item table-content__your">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Ваші</span>
+																	</div>
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Биков Констянтин Валентинович
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+															</div>
+
+															<div class="table-content__item table-content__your">
+																<div class="table-header">
+
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Ваші</span>
+																	</div>
+
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Звіробій Ілон Акаківна
+																		</span>
+																	</div>
+
+
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+
+																</div>
+															</div>
+
+															<div class="table-content__item table-content__opposition">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Проти</span>
+																	</div>
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Звіробій Ілон Акаківна
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+
+															</div>
+
+															<div class="table-content__item table-content__opposition">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Проти</span>
+																	</div>
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Звіробій Ілон Акаківна
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+
+															</div>
+
+															<div class="table-content__item table-content__self">
+																<div class="table-header">
+																	<div
+																		class="table-header__col table-header__interest d-none d-md-block">
+																		<span>Свої</span>
+																	</div>
+																	<div class="table-header__col table-header__status-person mob-info">
+																		<div>
+																			<span>
+																				Адвокат (судовий представник)
+																			</span>
+																		</div>
+																		<div>
+																			<button class="btn btn-view open-modal-link"
+																				data-mfp-src="#modal-info">
+																				<i class="icon icon-angle-right"></i>
+																			</button>
+
+																		</div>
+																	</div>
+																	<div
+																		class="table-header__col table-header__surname d-none d-md-block">
+																		<span>
+																			Приходько Оксана Василівна
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__contact">
+																		<span>
+																			<button class="btn btn-callback">
+																				<i class="icon icon-phone"></i>
+																			</button>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__person-info">
+																		<a href="#view-member" class="open-modal-link">
+																			<span class="d-none d-xl-inline">Перглянути</span>
+																			<span class="d-xl-none">i</span>
+																		</a>
+																	</div>
+																	<div class="table-header__col delete-member">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info end -->
+
+									<!-- serviceBlock-info -->
+									<div class="serviceBlock-info-case toggle-block">
+										<div class="serviceBlock-info__action">
+											<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+										</div>
+										<div class="serviceBlock-info__body">
+											<div class="serviceBlock-info__text">
+												<div class="serviceBlock-heading">
+													Події у справі
+													<div class="hidden-btn">
+														<div class="btn-group">
+															<button class="btn btn-secondary btn-sm btn-delete-item">Видалити
+																подію</button>
+															<button class="btn btn-primary btn-sm open-modal-link"
+																data-mfp-src="#modal-add-event">Добавити подію</button>
+														</div>
+													</div>
+												</div>
+												<div class="serviceBlock-info__body-inside toggle-item">
+													<div class="table table-messages">
+														<div class="table-header">
+															<div class="table-header__col table-header__action">
+																<span>
+																	Розвер.
+																</span>
+															</div>
+															<div class="table-header__col table-header__title">
+																<span>
+																	Тема події
+																</span>
+															</div>
+															<div class="table-header__col table-header__type d-none d-lg-flex">
+																<span>
+																	Місце події
+																</span>
+															</div>
+															<div class="table-header__col table-header__nature d-none d-lg-flex">
+																<span>
+																	Характер події
+																</span>
+															</div>
+															<div class="table-header__col table-header__members d-none d-lg-flex">
+																<span>
+																	Учасники
+																</span>
+															</div>
+															<div class="table-header__col table-header__date d-none d-lg-flex">
+																<span>
+																	Дата події
+																</span>
+															</div>
+															<div class="table-header__col delete-member flag3">
+																<span class="delete-member">
+																	Видал..
+																</span>
+															</div>
+														</div>
+														<div class="table-content">
+
+															<div class="table-content__item toggle-block">
+																<div class="table-header bef">
+																	<div class="table-header__col table-header__action">
+																		<button class="btn btn-toggle"><i
+																				class="icon icon-angle-down"></i></button>
+																	</div>
+																	<div class="table-header__col table-header__title">
+																		<p>Засідання погоджувальної ради</p>
+																	</div>
+																	<div class="table-header__col table-header__type"
+																		data-title="Місце події">
+																		<i class="icon icon-car"></i>
+																	</div>
+																	<div class="table-header__col table-header__nature"
+																		data-title="Характер події">
+																		<i class="icon icon-chat"></i>
+																	</div>
+																	<div class="table-header__col table-header__members"
+																		data-title="Учасники">
+																		<span>
+																			10
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date"
+																		data-title="Дата події">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col delete-member flag2" data-title="Видал..">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+																</div>
+															</div>
+
+															<div class="table-content__item toggle-block">
+
+																<div class="table-header bef">
+																	<div class="table-header__col table-header__action">
+																		<button class="btn btn-toggle"><i
+																				class="icon icon-angle-down"></i></button>
+																	</div>
+																	<div class="table-header__col table-header__title">
+																		<p>Засідання погоджувальної ради</p>
+																	</div>
+
+																	<div class="table-header__col table-header__type"
+																		data-title="Місце події">
+																		<i class="icon icon-chair"></i>
+																	</div>
+																	<div class="table-header__col table-header__nature"
+																		data-title="Характер події">
+																		<i class="icon icon-write"></i>
+																	</div>
+																	<div class="table-header__col table-header__members"
+																		data-title="Учасники">
+																		<span>
+																			10
+																		</span>
+																	</div>
+																	<div class="table-header__col table-header__date"
+																		data-title="Дата події">
+																		<span>
+																			<i class="icon icon-date"></i>
+																			<span>30.10.19</span>
+																		</span>
+																		<span>
+																			<i class="icon icon-clock"></i>
+																			<span>16:32</span>
+																		</span>
+																	</div>
+																	<div class="table-header__col delete-member flag2" data-title="Видал..">
+																		<button class="btn btn-delete">
+																			<i class="icon icon-close"></i>
+																		</button>
+																	</div>
+
+																</div>
+
+																<div class="table-body serviceBlock toggle-item">
+																	<!-- serviceBlock-info -->
+																	<div class="serviceBlock-info">
+																		<div class="serviceBlock-info__body">
+
+																			<div class="serviceBlock-info__files">
+																				<div class="serviceBlock-heading">
+																					Файли по даній події
+																				</div>
+																				<div class="serviceBlock-info__inside">
+																					<div class="mobileNotScroll">
+																						<ul class="file-box">
+																							<li class="file-box__item">
+																								<button class="btn btn-delete">
+																									<i class="icon icon-close"></i>
+																								</button>
+																								<img src="images/dest/doc-icon.png" alt="doc"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Прошение о ходотайстве к в верховнasfasfas
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/xls-icon.png" alt="xls"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Счета по распределению потоков денasadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/pdf-icon-error.png"
+																									alt="pdf" class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Счета по распределению потоков денasadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/jpg-icon.png" alt="jpg"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Копия свидетельства рееестрации земasadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/doc-icon.png" alt="doc"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Заявление про нарушение человечесadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/pdf-icon.png" alt="pdf"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Скан документа “Свыдетельство о влеdsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/jpg-icon-error.png"
+																									alt="jpg" class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Счета
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/jpg-icon-yellow.png"
+																									alt="jpg" class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Прошение
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/xls-icon.png" alt="xls"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Счета по распределению потоков денasadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/doc-icon.png" alt="doc"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Прошение о ходотайстве к в верховнasfasfas
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/xls-icon.png" alt="xls"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Счета по распределению потоков денasadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/pdf-icon-error.png"
+																									alt="pdf" class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Счета по распределению потоков денasadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/jpg-icon.png" alt="jpg"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Копия свидетельства рееестрации земasadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/doc-icon.png" alt="doc"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Заявление про нарушение человечесadsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/pdf-icon.png" alt="pdf"
+																									class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Скан документа “Свыдетельство о влеdsf
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/jpg-icon-error.png"
+																									alt="jpg" class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Счета
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																							<li class="file-box__item">
+																								<button
+																									class="icon icon-close btn btn-delete"></button>
+																								<img src="images/dest/jpg-icon-yellow.png"
+																									alt="jpg" class="file-box__item-img">
+																								<div class="file-box__wrap">
+																									<span class="file-box__item-text">
+																										Прошение
+																									</span>
+																									<small>21.03.2020 14:23</small>
+																								</div>
+																							</li>
+																						</ul>
+																					</div>
+																					<div class="btn-group  flag">
+																						<button
+																							class="btn  btn-secondary btn-read-more d-lg-none">
+																							<span class="show">Весь </span> <span
+																								class="hide">Звернути </span>список
+																						</button>
+																						<button class="btn btn-secondary btn-sm">
+																							Додати файл
+																						</button>
+																						<button class="btn btn-primary btn-sm">
+																							Скачати всі
+																						</button>
+																					</div>
+																				</div>
+																			</div>
+
+																			<div class="serviceBlock-info__text">
+																				<div class="serviceBlock-heading">
+																					Нові повідомленя повязані з цією подією:
+																					&nbsp;<span>2</span>
+
+																				</div>
+																				<div class="serviceBlock-info__inside">
+																					<div class="mobileNotScroll">
+																						<div class="popap-redag">
+																							<div class="redag-bg"></div>
+																							<div class="redag-body">
+																								<div class="title_popup">
+																									Редагувати текст
+																									<span class="popup-x redag-btn-exit"><i
+																											class="mfp-close icon icon-close"></i></span>
+																								</div>
+																								<textarea name="redag"
+																									class="redag-area"></textarea>
+																								<div class="btn-group">
+																									<button class="btn btn-secondary btn-sm redag-close">
+																										Закрити
+																									</button>
+																									<button
+																										class="btn btn-primary modify-output">Публікувати</button>
+																								</div>
+																							</div>
+																						</div>
+																						<ul class="message-about">
+																							<li>
+																								<div class="message-about__header">
+																									<span>
+																										21.03.2020 14:23
+																									</span>
+																									<em>System</em>
+																								</div>
+																								<div class="message-about__body">
+																									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quae nulla cum repudiandae totam libero nam quaerat quod vitae nobis. Id quae explicabo, deserunt expedita saepe similique dolores porro quos!</p>
+																								</div>
+																							</li>
+																							<li>
+																								<div class="message-about__header">
+																									<span>
+																										21.03.2020 14:23
+																									</span>
+																									<em>
+																										Адвокат (ведучий)
+																										<button class="btn btn-edit redag-file"
+																											href="#modal-redag-message"><i
+																												class="icon icon-edit"></i></button>
+																									</em>
+																								</div>
+																								<div class="message-about__body">
+																									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis odio odit dolorum error tenetur sit eum doloribus voluptas obcaecati quas deleniti quos, unde illum! Eveniet sed voluptate iure ad?</p>
+																								</div>
+																							</li>
+																							<li>
+																								<div class="message-about__header">
+																									<span>
+																										21.03.2020 14:23
+																									</span>
+																									<em>Адвокат (ведучий)
+																										<button class="btn btn-edit redag-file"
+																											href="#modal-redag-message"><i
+																												class="icon icon-edit"></i></button>
+																									</em>
+																								</div>
+																								<div class="message-about__body">
+																									<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo rem necessitatibus sunt laudantium doloribus porro praesentium sint a consequatur ab minus aspernatur provident, saepe voluptatibus, molestias ex quaerat placeat. Pariatur.</p>
+																								</div>
+																							</li>
+																							<li>
+																								<div class="message-about__header">
+																									<span>
+																										21.03.2020 14:23
+																									</span>
+																									<em>System</em>
+																								</div>
+																								<div class="message-about__body">
+																									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus nihil iste ut, eos aperiam architecto repellendus velit placeat possimus ducimus eum minima doloremque quos dolorem nam asperiores sequi accusamus?</p>
+																								</div>
+																							</li>
+																						</ul>
+																					</div>
+																					<div class="btn-group justify-content-end">
+																						<button
+																							class="btn  btn-secondary btn-read-more d-lg-none">
+																							<span class="show">Весь </span> <span
+																								class="hide">Звернути </span>список
+																						</button>
+																						<button class="btn btn-primary btn-sm open-modal-link"
+																							data-mfp-src="#modal-add-message">
+																							Додати <span
+																								class="d-none d-sm-inline">повідомлення</span><span
+																								class="d-sm-none">повідом.</span>
+																						</button>
+																					</div>
+
+																				</div>
+																			</div>
+
+																			<div class="serviceBlock-info__members">
+																				<div class="serviceBlock-heading">
+																					Нові учасники справи: &nbsp;<span>3</span>
+																				</div>
+																				<div class="serviceBlock-info__inside">
+																					<div class="mobileNotScroll">
+																						<table class="table-new-members">
+																							<tr class="new-member">
+																								<th>
+																									Семенов В. П.
+																								</th>
+																								<td>
+																									Адвокат (склад. докум.)
+																								</td>
+																							</tr>
+																							<tr class="new-member">
+																								<th>
+																									Биков К. В.
+																								</th>
+																								<td>
+																									Помічник адвоката
+																								</td>
+																							</tr>
+																							<tr class="old-member">
+																								<th>
+																									Звіробій І. А.
+																								</th>
+																								<td>
+																									Секретар адвокт. обєдн.
+																								</td>
+																							</tr>
+																						</table>
+																					</div>
+																				</div>
+																			</div>
+
+																		</div>
+																	</div>
+																	<!-- serviceBlock-info end -->
+																	<!-- serviceBlock-info -->
+																	<div class="serviceBlock-info__table toggle-block">
+																		<div class="serviceBlock-info__action">
+																			<button class="btn btn-toggle"><i
+																					class="icon icon-angle-down"></i></button>
+																			<div class="serviceBlock-heading">
+																				Учасники події, на боці клієнта
+																			</div>
+																		</div>
+																		<div class="serviceBlock-info__body">
+
+																			<div class="table table-members toggle-item">
+
+																				<div class="table-header">
+																					<div
+																						class="table-header__col table-header__surname d-none d-md-block">
+																						<span>
+																							Учасники
+																						</span>
+																					</div>
+																					<div
+																						class="table-header__col table-header__status-person">
+																						<span>
+																							Статус
+																						</span>
+																					</div>
+																					<div class="table-header__col">
+																						<span class="d-none d-xl-block">
+																							Необхідна <br> участь
+																						</span>
+																						<span class="d-xl-none">
+																							Необх. <br>участь
+																						</span>
+																					</div>
+																					<div class="table-header__col">
+																						<span class="d-none d-xl-block">
+																							Повідомленя <br> про подію
+																						</span>
+																						<span class="d-xl-none">
+																							Повід. <br>
+																							про <br>
+																							подію
+																						</span>
+																					</div>
+																					<div class="table-header__col">
+																						<span class="d-none d-xl-block">
+																							Додаткові <br> дії учасників
+																						</span>
+																						<span class="d-xl-none">
+																							Додат. <br>
+																							дії <br>
+																							учас.
+																						</span>
+																					</div>
+																					<div class="table-header__col d-none d-md-block">
+																						<span class="d-none d-xl-block">
+																							Надіслані <br> файли
+																						</span>
+																						<span class="d-xl-none">
+																							Файли
+																						</span>
+																					</div>
+																					<div class="table-header__col d-none d-md-block">
+																						<span class="d-none d-xl-block">
+																							Надіслані <br> повідомлення
+																						</span>
+																						<span class="d-xl-none">
+																							Повідом
+																						</span>
+																					</div>
+																				</div>
+
+																				<div class="table-content mobileNotScroll">
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="table-content__item table-content__your">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<!-- serviceBlock-info end -->
+																	<!-- serviceBlock-info -->
+																	<div class="serviceBlock-info__table toggle-block">
+																		<div class="serviceBlock-info__action">
+																			<button class="btn btn-toggle"><i
+																					class="icon icon-angle-down"></i></button>
+																			<div class="serviceBlock-heading">
+																				Учасники події, на боці протилежної сторони
+																			</div>
+																		</div>
+																		<div class="serviceBlock-info__body">
+
+																			<div class="table table-members toggle-item">
+
+																				<div class="table-header">
+																					<div
+																						class="table-header__col table-header__surname d-none d-md-block">
+																						<span>
+																							Учасники
+																						</span>
+																					</div>
+																					<div
+																						class="table-header__col table-header__status-person">
+																						<span>
+																							Статус
+																						</span>
+																					</div>
+																					<div class="table-header__col">
+																						<span class="d-none d-xl-block">
+																							Необхідна <br> участь
+																						</span>
+																						<span class="d-xl-none">
+																							Необх. <br>участь
+																						</span>
+																					</div>
+																					<div class="table-header__col">
+																						<span class="d-none d-xl-block">
+																							Повідомленя <br> про подію
+																						</span>
+																						<span class="d-xl-none">
+																							Повід. <br>
+																							про <br>
+																							подію
+																						</span>
+																					</div>
+																					<div class="table-header__col">
+																						<span class="d-none d-xl-block">
+																							Додаткові <br> дії учасників
+																						</span>
+																						<span class="d-xl-none">
+																							Додат. <br>
+																							дії <br>
+																							учас.
+																						</span>
+																					</div>
+																					<div class="table-header__col d-none d-md-block">
+																						<span class="d-none d-xl-block">
+																							Надіслані <br> файли
+																						</span>
+																						<span class="d-xl-none">
+																							Файли
+																						</span>
+																					</div>
+																					<div class="table-header__col d-none d-md-block">
+																						<span class="d-none d-xl-block">
+																							Надіслані <br> повідомлення
+																						</span>
+																						<span class="d-xl-none">
+																							Повідом
+																						</span>
+																					</div>
+																				</div>
+
+																				<div class="table-content mobileNotScroll">
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div
+																						class="table-content__item table-content__opposition">
+																						<div class="table-header">
+																							<div
+																								class="table-header__col table-header__surname d-none d-md-block">
+																								<span>
+																									Петров Валентин Іванович
+																								</span>
+																							</div>
+
+																							<div
+																								class="table-header__col table-header__status-person mob-info">
+																								<div>
+																									<span>
+																										Адвокат (судовий представник)
+																									</span>
+																								</div>
+																								<div>
+																									<button class="btn btn-view open-modal-link"
+																										data-mfp-src="#modal-info">
+																										<i class="icon icon-angle-right"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+																									<i class="icon icon-check"></i>
+																								</span>
+																							</div>
+																							<div class="table-header__col">
+																								<span class="checkmark">
+
+																								</span>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані файли">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-files">
+																									2
+																								</button>
+																							</div>
+																							<div
+																								class="table-header__col table-header__buttons"
+																								data-title="Надіслані повідомлення">
+																								<button
+																									class="btn btn-secondary open-modal-link"
+																									data-mfp-src="#modal-message">
+																									<i class="icon icon-buble"></i>
+																								</button>
+																							</div>
+																						</div>
+																					</div>
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<!-- serviceBlock-info end -->
+																</div>
+
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- serviceBlock-info end -->
+
+								</div>
+								<!-- table-body end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block new">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00009
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00008
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00007
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00006
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00005
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00004
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-2"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00003
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-3"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00002
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+							<!-- table-content__item -->
+							<div class="table-content__item toggle-block">
+								<!-- table-header -->
+								<div class="table-header">
+									<div class="table-header__col table-header__action">
+										<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+									</div>
+									<div class="table-header__col table-header__service">
+										<span>
+											<i class="icon icon-services-1"></i>
+										</span>
+									</div>
+									<div class="table-header__col table-header__title">
+										<p>
+											Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit, sed do eiusmod tempor incididunt..
+										</p>
+									</div>
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+
+									<div class="table-header__col table-header__date">
+										<span>
+											<i class="icon icon-date"></i>
+											<span>30.10.19</span>
+										</span>
+										<span>
+											<i class="icon icon-clock"></i>
+											<span>16:32</span>
+										</span>
+									</div>
+									<div class="table-header__col table-header__number">
+										<span>
+											00001
+										</span>
+									</div>
+									<div class="table-header__col table-header__status">
+										<span class="status status-rejected">
+											Відхилено
+										</span>
+									</div>
+
+								</div>
+								<!-- table-header end -->
+							</div>
+							<!-- table-content__item end -->
+						</div>
+						<div class="table-footer">
+							<div class="amout-messages">
+								<span class="amout-messages--text">
+									Показ.
+								</span>
+								<select class="custom-select">
+									<option value="10">10</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+							</div>
+							<div>
+								<div class="pagination">
+									<ul>
+										<li class="page-prev"><a href="" class="disabled"><span
+													class="icon icon-angle-left"></span></a></li>
+										<li><span>1</span></li>
+										<li><a href="">2</a></li>
+										<li><a href="">3</a></li>
+										<li><a href="">4</a></li>
+										<li class="page-next"><a href=""><span class="icon icon-angle-right"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- table end -->
+				</div>
+			</main>
+			<!-- main end -->
+		</div>
+		<!-- content end -->
+	</div>
+
+	<div class="messenger">
+		<div class="messenger-group">
+			<div class="messenger-group__box">
+				<div class="messenger-group__box-head">
+					<div class="messenger-group__box-title">Диалоги</div>
+				</div>
+				<div class="messenger-group__box-body">
+					<div class="messenger-group__box-list">
+						<ul>
+							<li>
+								<span class="icon icon-checklist"></span>
+								<div class="messenger-group__box-list-title">Тех. поддержка</div>
+								<div class="messenger-group__box-list-date">12.10.2018 19:10</div>
+								<div class="messenger-group__box-list-count">1</div>
+							</li>
+							<li>
+								<span class="icon icon-webcam"></span>
+								<div class="messenger-group__box-list-title">Видеозвонок адвокату</div>
+								<div class="messenger-group__box-list-date">4 часа назад</div>
+								<div class="messenger-group__box-list-count">13</div>
+							</li>
+							<li>
+								<span class="icon icon-phone"></span>
+								<div class="messenger-group__box-list-title">Звонок адвокату</div>
+								<div class="messenger-group__box-list-date">4 часа назад</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="messenger-button js-messenger">
+			<span class="icon icon-phone"></span>
+			<span class="icon icon-close"></span>
+			<div class="counter">6</div>
+		</div>
+	</div>
+
+	<!-- ***********************************Modals block*************************************** -->
+
+	<div id="view-member" class="mfp-hide modal-center member-modal">
+		<div class="modal-header">
+			<div class="modal-heading">
+				Звіт про надання послуги:
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="member-block">
+				<div class="member-block__img">
+					<i class="icon icon-user"></i>
+				</div>
+				<div class="member-block__info">
+					<div class="member-block__name">
+						Супрун Василь Ігорович
+					</div>
+					<div class="member-block__item">
+						<div class="modal-heading">
+							Проходить по спарві в ролі:
+						</div>
+						<p>Свідок</p>
+					</div>
+					<div class="member-block__item">
+						<div class="modal-heading">
+							На чіїй сторні:
+						</div>
+						<p>Сторона клієнта</p>
+					</div>
+				</div>
+			</div>
+			<div class="modal-heading">
+				Проходить в інших справах:
+			</div>
+			<div class="table">
+				<div class="table-header">
+					<div class="table-header__col table-header__title">
+						<span>
+							Тема послуги
+						</span>
+					</div>
+					<div class="table-header__col">
+						<span>
+							Роль <br> в справі
+						</span>
+					</div>
+					<div class="table-header__col table-header__action">
+						<span>
+							Перей. <br>у спр.
+						</span>
+					</div>
+				</div>
+				<div class="table-content">
+					<div class="table-content__item new">
+						<div class="table-header">
+							<div class="table-header__col table-header__title">
+								<p>
+									Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+									ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+								</p>
+							</div>
+							<div class="table-header__col">
+								<span>
+									Свідок
+								</span>
+							</div>
+							<div class="table-header__col table-header__action">
+								<button class="btn btn-action-link"><i class="icon icon-angle-right"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="table-content__item new">
+						<div class="table-header">
+							<div class="table-header__col table-header__title">
+								<p>
+									Сімейні спори про поділ майна та Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+									ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+								</p>
+							</div>
+							<div class="table-header__col">
+								<span>
+									Учасник справи
+								</span>
+							</div>
+							<div class="table-header__col table-header__action">
+								<button class="btn btn-action-link"><i class="icon icon-angle-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<div class="btn-group">
+				<button class="btn btn-secondary closeModal">Закрити</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- ******************************************************************************************** -->
+
+	<div id="modal-add-member" class="mfp-hide modal-center member-modal">
+		<div class="modal-header">
+			<div class="modal-heading">
+				Добавити нового учасника у справі
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="member-event">
+
+				<div class="member-new">
+					<div class="form-group">
+						<label>Фамілія</label>
+						<input type="text" class="form-control" placeholder="Введіть фамілію">
+					</div>
+					<div class="form-group">
+						<label>Імя</label>
+						<input type="text" class="form-control" placeholder="Введіть імя">
+					</div>
+					<div class="form-group">
+						<label>Побатькові</label>
+						<input type="text" class="form-control" placeholder="Введіть побатькові">
+					</div>
+					<div class="form-group">
+						<label>Статус учасника</label>
+						<select class="custom-select">
+							<option value="1">Клієнт</option>
+							<option value="2">Адвокат</option>
+							<option value="3">Свідок</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>На чієму боці учасник</label>
+						<select class="custom-select">
+							<option value="1">На стороні клієнта</option>
+							<option value="2">Проти</option>
+						</select>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="modal-footer">
+			<div class="btn-group">
+				<button class="btn btn-secondary closeModal">Закрити</button>
+				<button class="btn btn-primary">Добавити учасника</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- ******************************************************************************************** -->
+
+	<div id="modal-add-message" class="mfp-hide modal-center">
+		<div class="modal-header">
+			<div class="modal-heading">
+				Додати повідомлення
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="member-event">
+
+				<div class="form-group"><textarea placeholder="Введіть текст"></textarea></div>
+
+			</div>
+		</div>
+		<div class="modal-footer">
+			<div class="btn-group">
+				<button class="btn btn-secondary closeModal">Закрити</button>
+				<button class="btn btn-primary">Добавити учасника</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- ******************************************************************************************** -->
+
+	<div id="modal-message" class="mfp-hide modal-center">
+		<div class="modal-header">
+			<div class="modal-heading">
+				Надіслане повідомлення клієнту
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="mobileScroll">
+				<ul class="message-about">
+					<li>
+						<div class="message-about__header">
+							<span>
+								21.03.2020 14:23
+							</span>
+
+						</div>
+						<div class="message-about__body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur</p>
+						</div>
+					</li>
+					<li>
+						<div class="message-about__header">
+							<span>
+								21.03.2020 14:23
+							</span>
+
+						</div>
+						<div class="message-about__body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+								ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+						</div>
+					</li>
+					<li>
+						<div class="message-about__header">
+							<span>
+								21.03.2020 14:23
+							</span>
+
+						</div>
+						<div class="message-about__body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+								ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+						</div>
+					</li>
+					<li>
+						<div class="message-about__header">
+							<span>
+								21.03.2020 14:23
+							</span>
+
+						</div>
+						<div class="message-about__body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+								ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="modal-footer">
+		</div>
+	</div>
+
+	<!-- ******************************************************************************************** -->
+
+	<div id="modal-files" class="mfp-hide modal-center">
+		<div class="modal-header">
+			<div class="modal-heading">
+				Надіслані файли клієнту
+			</div>
+		</div>
+		<div class="modal-body">
+			<div class="mobileScroll">
+				<ul class="file-box">
+					<li class="file-box__item">
+						<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+						<div class="file-box__wrap">
+							<span class="file-box__item-text">
+								Прошение о ходотайстве к в верховнasfasfas
+							</span>
+						</div>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+						<div class="file-box__wrap">
+							<span class="file-box__item-text">
+								Счета по распределению потоков денasadsf
+							</span>
+						</div>
+
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Счета по распределению потоков денasadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Копия свидетельства рееестрации земasadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Заявление про нарушение человечесadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Скан документа “Свыдетельство о влеdsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Счета
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Прошение
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Счета по распределению потоков денasadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Прошение о ходотайстве к в верховнasfasfas
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Счета по распределению потоков денasadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Счета по распределению потоков денasadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Копия свидетельства рееестрации земasadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Заявление про нарушение человечесadsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Скан документа “Свыдетельство о влеdsf
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Счета
+						</span>
+					</li>
+					<li class="file-box__item">
+						<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+						<span class="file-box__item-text">
+							Прошение
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="modal-footer">
+			<div class="btn-group">
+				<button class="btn btn-primary btn-sm">
+					Скачати всі файли
+				</button>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- ******************************************************************************************** -->
+
+	<div id="modal-info" class="mfp-hide modal-center modal-info">
+
+		<div class="modal-body">
+			<div class="table">
+				<div class="table-header">
+					<div class="table-header__col">
+						<span>
+							Статус особи <br>у спарві
+						</span>
+					</div>
+					<div class="table-header__col">
+						<span>
+							Прізвище
+						</span>
+					</div>
+				</div>
+
+				<div class="table-content__item">
+					<div class="table-header">
+
+						<div class="table-header__col">
+							<span>
+								Адвокат (ведучий)
+							</span>
+						</div>
+						<div class="table-header__col">
+							<span>
+								Фамілія адвоката
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- ******************************************************************************************** -->
+
+	<div id="modal-add-event" class="mfp-hide modal-center">
+		<div class="modal-header">
+			<div class="modal-heading">
+				Запланувати нову подію у справі
+			</div>
+		</div>
+		<div class="modal-body">
+
+			<div class="event-block">
+				<div class="event-block__header">
+
+					<div class="event-block__header-left">
+						<div class="form-group">
+							<label>Назва події</label>
+							<select class="custom-select">
+								<option value="1">название собития 1</option>
+								<option value="2">название собития 2</option>
+								<option value="3">название собития 3</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Опис події</label>
+							<textarea name="mess"></textarea>
+						</div>
+						<div class="form-group">
+							<label>Місце роботи</label>
+							<select class="custom-select-icon">
+								<option value="fa-user" data-icon="icon-car">виїзд</option>
+								<option value="fa-user2" data-icon="icon-chair">на місці</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Характер роботи</label>
+							<select class="custom-select-icon">
+								<option value="fa-chat" data-icon="icon-chat">перписка</option>
+								<option value="fa-write" data-icon="icon-write">на місці</option>
+							</select>
+						</div>
+					</div>
+
+
+					<div class="event-block__header-right">
+						<div class="event-date">
+							<div class="modal-heading">
+								Початок події
+							</div>
+							<div class="d-flex time-block">
+								<div class="form-group">
+									<label>Дата</label>
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+										</button>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Час</label>
+									<div class="calendar">
+										<div>
+											<input type="text" placeholder="00:00">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-clock"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="modal-heading">
+								Закінчення події
+							</div>
+							<div class="d-flex time-block">
+								<div class="form-group">
+									<label>Дата</label>
+									<div class="calendar">
+										<div>
+											<input type="text" class="datepick" data-pmu-format="d.m.Y">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-calendar"></i>
+										</button>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Час</label>
+									<div class="calendar">
+										<div>
+											<input type="text" placeholder="00:00">
+										</div>
+										<button class="btn btn-action">
+											<i class="icon icon-clock"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="event-files">
+							<div class="modal-heading">
+								Добавити файли
+							</div>
+							<div class="mobileNotScroll">
+								<ul class="file-box">
+									<li class="file-box__item">
+										<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Прошение о ходотайстве к в верховнasfasfas
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Счета по распределению потоков денasadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Счета по распределению потоков денasadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Копия свидетельства рееестрации земasadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Заявление про нарушение человечесadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Скан документа “Свыдетельство о влеdsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Счета
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Прошение
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Счета по распределению потоков денasadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Прошение о ходотайстве к в верховнasfasfas
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Счета по распределению потоков денasadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/pdf-icon-error.png" alt="pdf" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Счета по распределению потоков денasadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Копия свидетельства рееестрации земasadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Заявление про нарушение человечесadsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Скан документа “Свыдетельство о влеdsf
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/jpg-icon-error.png" alt="jpg" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Счета
+										</span>
+									</li>
+									<li class="file-box__item">
+										<img src="images/dest/jpg-icon-yellow.png" alt="jpg" class="file-box__item-img">
+										<span class="file-box__item-text">
+											Прошение
+										</span>
+									</li>
+								</ul>
+							</div>
+							<div class="btn-group">
+								<button class="btn btn-secondary btn-read-more d-lg-none">
+									<span class="show">Весь </span> <span class="hide">Звернути </span>список
+								</button>
+								<button class="btn btn-primary btn-sm">
+									Добавити файл
+								</button>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="member-event toggle-block">
+
+				<div class="modal-heading">
+					<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button> <span>Добавити нового
+						учасника у справі</span>
+				</div>
+
+				<div class="toggle-item">
+					<div class="member-new">
+						<div class="form-group">
+							<label>Фамілія</label>
+							<input type="text" class="form-control" placeholder="Введіть фамілію">
+						</div>
+						<div class="form-group">
+							<label>Імя</label>
+							<input type="text" class="form-control" placeholder="Введіть імя">
+						</div>
+						<div class="form-group">
+							<label>Побатькові</label>
+							<input type="text" class="form-control" placeholder="Введіть побатькові">
+						</div>
+						<div class="form-group">
+							<label>Статус учасника</label>
+							<select class="custom-select">
+								<option value="1">Клієнт</option>
+								<option value="2">Адвокат</option>
+								<option value="3">Свідок</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>На чієму боці учасник</label>
+							<select class="custom-select">
+								<option value="1">На стороні клієнта</option>
+								<option value="2">Проти</option>
+							</select>
+						</div>
+					</div>
+					<button class="btn btn-primary">Добавити учасника</button>
+				</div>
+
+			</div>
+
+			<div class="member-event toggle-block">
+
+				<div class="modal-heading">
+					<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button> <span>Учасники події, на
+						боці клієнта</span>
+				</div>
+
+				<div class="table table-members toggle-item check-purple">
+
+					<div class="table-header">
+						<div class="table-header__col table-header__action">
+							<span class="d-none d-md-block">
+								Додаткові <br> дії учасників
+							</span>
+							<span class="d-md-none">
+								Додат. <br>дії учас.
+							</span>
+						</div>
+						<div class="table-header__col table-header__surname d-none d-md-block">
+							<span>
+								Учасники
+							</span>
+						</div>
+						<div class="table-header__col table-header__status-person">
+							<select name="" id="" class="custom-select">
+								<option value="Всі статуси">Всі статуси</option>
+								<option value="Адвокат">Адвокат</option>
+							</select>
+						</div>
+						<div class="table-header__col d-none d-md-block">
+							<span>
+								Необх. <br>участь
+							</span>
+						</div>
+						<div class="table-header__col d-none d-md-block">
+							<span>
+								Повідом. <br> про подію
+							</span>
+						</div>
+
+					</div>
+
+					<div class="table-content mobileNotScroll">
+
+						<div class="table-content__item table-content__your toggle-block">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Петров В. І.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Адвокат (судовий)
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox1">
+										<label for="checkbox1"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox2">
+										<label for="checkbox2"></label>
+									</div>
+								</div>
+
+							</div>
+							<div class="event-block toggle-item">
+								<div class="event-block__header">
+
+									<div class="event-block__header-left">
+										<div class="form-group">
+											<label>Вбір додаткових дій</label>
+											<select class="custom-select">
+												<option value="1">название собития 1</option>
+												<option value="2">название собития 2</option>
+												<option value="3">название собития 3</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label>Опис додаткових дій</label>
+											<textarea name="mess"></textarea>
+										</div>
+
+									</div>
+
+
+									<div class="event-block__header-right">
+										<div class="event-files">
+											<div class="modal-heading">
+												Добавити файли
+											</div>
+											<div class="mobileNotScroll">
+												<ul class="file-box">
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение о ходотайстве к в верховнasfasfas
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon-error.png" alt="pdf"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Копия свидетельства рееестрации земasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Заявление про нарушение человечесadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Скан документа “Свыдетельство о влеdsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-error.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-yellow.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение о ходотайстве к в верховнasfasfas
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon-error.png" alt="pdf"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Копия свидетельства рееестрации земasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Заявление про нарушение человечесadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Скан документа “Свыдетельство о влеdsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-error.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-yellow.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение
+														</span>
+													</li>
+												</ul>
+											</div>
+											<div class="btn-group">
+												<button class="btn btn-secondary btn-read-more d-lg-none">
+													<span class="show">Весь </span> <span class="hide">Звернути </span>список
+												</button>
+												<button class="btn btn-primary btn-sm">
+													Добавити файл
+												</button>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Семенов В. П.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Помічник адвоката
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox3">
+										<label for="checkbox3"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox4">
+										<label for="checkbox4"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Петров В. І.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Секретар адвокт. обєдн.
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox5">
+										<label for="checkbox5"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox6">
+										<label for="checkbox6"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Биков К. В.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Свідок
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox7">
+										<label for="checkbox7"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox8">
+										<label for="checkbox8"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Звіробій І. А.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Позивач
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox9">
+										<label for="checkbox9"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox10">
+										<label for="checkbox10"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Семенов А. Є.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Експерт автоварознавець
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox11">
+										<label for="checkbox11"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox12">
+										<label for="checkbox12"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Бурцал Г. Д.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Есперт з фінансів
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox13">
+										<label for="checkbox13"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox14">
+										<label for="checkbox14"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Клімов П. І.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Відповідач
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox15">
+										<label for="checkbox15"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox16">
+										<label for="checkbox16"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Зшкварко Г. В.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Адвокат (ведучий)
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox17">
+										<label for="checkbox17"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox18">
+										<label for="checkbox18"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__your">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Приходько О. В.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Відповідач
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox19">
+										<label for="checkbox19"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox20">
+										<label for="checkbox20"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="member-event toggle-block">
+
+				<div class="modal-heading">
+					<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button> <span>Вибрати учасників
+						події, на боці протилежної сторони</span>
+				</div>
+
+				<div class="table table-members toggle-item check-purple">
+
+					<div class="table-header">
+						<div class="table-header__col table-header__action">
+							<span class="d-none d-md-block">
+								Додаткові <br> дії учасників
+							</span>
+							<span class="d-md-none">
+								Додат. <br>дії учас.
+							</span>
+						</div>
+						<div class="table-header__col table-header__surname d-none d-md-block">
+							<span>
+								Учасники
+							</span>
+						</div>
+						<div class="table-header__col table-header__status-person">
+							<select name="" id="" class="custom-select">
+								<option value="Всі статуси">Всі статуси</option>
+								<option value="Адвокат">Адвокат</option>
+							</select>
+						</div>
+						<div class="table-header__col d-none d-md-block">
+							<span>
+								Необх. <br>участь
+							</span>
+						</div>
+						<div class="table-header__col d-none d-md-block">
+							<span>
+								Повідом. <br> про подію
+							</span>
+						</div>
+
+					</div>
+
+					<div class="table-content mobileNotScroll">
+
+						<div class="table-content__item table-content__opposition toggle-block">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Петров В. І.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Адвокат (судовий)
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox21">
+										<label for="checkbox21"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox22">
+										<label for="checkbox22"></label>
+									</div>
+								</div>
+
+							</div>
+							<div class="event-block toggle-item">
+								<div class="event-block__header">
+
+									<div class="event-block__header-left">
+										<div class="form-group">
+											<label>Вбір додаткових дій</label>
+											<select class="custom-select">
+												<option value="1">название собития 1</option>
+												<option value="2">название собития 2</option>
+												<option value="3">название собития 3</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label>Опис додаткових дій</label>
+											<textarea name="mess"></textarea>
+										</div>
+
+									</div>
+
+
+									<div class="event-block__header-right">
+										<div class="event-files">
+											<div class="modal-heading">
+												Добавити файли
+											</div>
+											<div class="mobileNotScroll">
+												<ul class="file-box">
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение о ходотайстве к в верховнasfasfas
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon-error.png" alt="pdf"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Копия свидетельства рееестрации земasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Заявление про нарушение человечесadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Скан документа “Свыдетельство о влеdsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-error.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-yellow.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение о ходотайстве к в верховнasfasfas
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/xls-icon.png" alt="xls" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon-error.png" alt="pdf"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета по распределению потоков денasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon.png" alt="jpg" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Копия свидетельства рееестрации земasadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/doc-icon.png" alt="doc" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Заявление про нарушение человечесadsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/pdf-icon.png" alt="pdf" class="file-box__item-img">
+														<span class="file-box__item-text">
+															Скан документа “Свыдетельство о влеdsf
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-error.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Счета
+														</span>
+													</li>
+													<li class="file-box__item">
+														<img src="images/dest/jpg-icon-yellow.png" alt="jpg"
+															class="file-box__item-img">
+														<span class="file-box__item-text">
+															Прошение
+														</span>
+													</li>
+												</ul>
+											</div>
+											<div class="btn-group">
+												<button class="btn btn-secondary btn-read-more d-lg-none">
+													<span class="show">Весь </span> <span class="hide">Звернути </span>список
+												</button>
+												<button class="btn btn-primary btn-sm">
+													Добавити файл
+												</button>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Семенов В. П.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Помічник адвоката
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox23">
+										<label for="checkbox23"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox24">
+										<label for="checkbox24"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Петров В. І.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Секретар адвокт. обєдн.
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox25">
+										<label for="checkbox25"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox26">
+										<label for="checkbox26"></label>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Биков К. В.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Свідок
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox27">
+										<label for="checkbox27"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox28">
+										<label for="checkbox28"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Звіробій І. А.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Позивач
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox29">
+										<label for="checkbox29"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox30">
+										<label for="checkbox30"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Семенов А. Є.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Експерт автоварознавець
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox31">
+										<label for="checkbox31"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox32">
+										<label for="checkbox32"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Бурцал Г. Д.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Есперт з фінансів
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox33">
+										<label for="checkbox33"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox34">
+										<label for="checkbox34"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Клімов П. І.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Відповідач
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox35">
+										<label for="checkbox35"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox36">
+										<label for="checkbox36"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Зшкварко Г. В.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Адвокат (ведучий)
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox37">
+										<label for="checkbox37"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox38">
+										<label for="checkbox38"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+						<div class="table-content__item table-content__opposition">
+							<div class="table-header">
+								<div class="table-header__col table-header__action">
+									<button class="btn btn-toggle"><i class="icon icon-angle-down"></i></button>
+								</div>
+								<div class="table-header__col table-header__surname" data-title="Учасники">
+									<span>
+										Приходько О. В.
+									</span>
+								</div>
+								<div class="table-header__col table-header__status-person">
+									<span>
+										Відповідач
+									</span>
+								</div>
+								<div class="table-header__col" data-title="Необх. участь">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox39">
+										<label for="checkbox39"></label>
+									</div>
+								</div>
+								<div class="table-header__col" data-title="Повідом. про подію">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox40">
+										<label for="checkbox40"></label>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="modal-footer">
+			<div class="btn-group">
+				<button class="btn btn-secondary closeModal">Закрити</button>
+				<button class="btn btn-primary">Запланувати подію</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- ******************************************************************************************** -->
+
+	<script src="js/libs.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>
